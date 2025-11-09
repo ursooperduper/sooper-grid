@@ -1,0 +1,33 @@
+{
+  "colors": [
+    {
+      "color": "#7f489c",
+      "swatchName" : "Purple",
+      "uid": 0
+    },
+    {
+      "color": "#151041",
+      "swatchName": "Dark blue",
+      "uid": 1
+    },
+    {
+      "color": "#f37348", 
+      "swatchName": "Orange",
+      "uid": 2
+    },
+    {
+      "color": "#ef4c75",
+      "swatchName": "Deep pink",
+      "uid": 3
+    },
+    {
+      "color": "#6bcbd9",
+      "swatchName": "Turquoise"
+    }
+  ],
+  "designer": "unknown",
+  "fileType": ".pal",
+  "name": "Anno",
+  "version": 1.0,
+  "website": ""
+}

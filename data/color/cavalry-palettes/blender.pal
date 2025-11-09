@@ -1,0 +1,33 @@
+{
+  "colors": [
+    {
+      "color": "#584ca0",
+      "swatchName" : "Purple",
+      "uid": 0
+    },
+    {
+      "color": "#54bf9e",
+      "swatchName": "Flat green",
+      "uid": 1
+    },
+    {
+      "color": "#f0e835", 
+      "swatchName": "Yellow",
+      "uid": 2
+    },
+    {
+      "color": "#ef4723",
+      "swatchName": "Red orange",
+      "uid": 3
+    },
+    {
+      "color": "#f5f6f7",
+      "swatchName": "White"
+    }
+  ],
+  "designer": "unknown",
+  "fileType": ".pal",
+  "name": "Blender",
+  "version": 1.0,
+  "website": ""
+}

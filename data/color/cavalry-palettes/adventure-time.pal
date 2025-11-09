@@ -1,0 +1,33 @@
+{
+  "colors": [
+    {
+      "color": "#fdba1d",
+      "swatchName" : "Yellow",
+      "uid": 0
+    },
+    {
+      "color": "#1899cc",
+      "swatchName": "Blue",
+      "uid": 1
+    },
+    {
+      "color": "#50a747", 
+      "swatchName": "Green",
+      "uid": 2
+    },
+    {
+      "color": "#b996c6",
+      "swatchName": "Pastel purple",
+      "uid": 3
+    },
+    {
+      "color": "#e36fab",
+      "swatchName": "Pink"
+    }
+  ],
+  "designer": "unknown",
+  "fileType": ".pal",
+  "name": "Adventure Time",
+  "version": 1.0,
+  "website": ""
+}

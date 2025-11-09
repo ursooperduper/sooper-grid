@@ -1,0 +1,33 @@
+{
+  "colors": [
+    {
+      "color": "#ed1b33",
+      "swatchName" : "Red",
+      "uid": 0
+    },
+    {
+      "color": "#a82c6d",
+      "swatchName": "Magenta",
+      "uid": 1
+    },
+    {
+      "color": "#da96c2", 
+      "swatchName": "Pink",
+      "uid": 2
+    },
+    {
+      "color": "#9edbf2",
+      "swatchName": "Light blue",
+      "uid": 3
+    },
+    {
+      "color": "#ed1c24",
+      "swatchName": "Reddest"
+    }
+  ],
+  "designer": "unknown",
+  "fileType": ".pal",
+  "name": "Anime",
+  "version": 1.0,
+  "website": ""
+}

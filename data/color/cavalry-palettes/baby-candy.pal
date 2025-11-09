@@ -1,0 +1,33 @@
+{
+  "colors": [
+    {
+      "color": "#f26f72",
+      "swatchName" : "Dusty rose",
+      "uid": 0
+    },
+    {
+      "color": "#fec77e",
+      "swatchName": "Yellow beige",
+      "uid": 1
+    },
+    {
+      "color": "#fbf495", 
+      "swatchName": "Pastel yellow",
+      "uid": 2
+    },
+    {
+      "color": "#91bed7",
+      "swatchName": "Lightest blue",
+      "uid": 3
+    },
+    {
+      "color": "#bce0c9",
+      "swatchName": "Light mint"
+    }
+  ],
+  "designer": "unknown",
+  "fileType": ".pal",
+  "name": "Baby Candy",
+  "version": 1.0,
+  "website": ""
+}

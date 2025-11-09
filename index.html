@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SooperGrid</title>
+
+    <link rel="stylesheet" href="https://use.typekit.net/xwv7uud.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.svg.js"></script>
+  </head>
+
+  <body>
+    <div class="soopergrid-container">
+      <div id="artboard">
+        <div id="canvasWrapper"></div>
+        <div class="canvas-actions">
+          <div class="download-actions">
+            <button id="btnSave" onclick="saveAnSVG()" title="Download an SVG"><img src="data/images/icon-download-wh.svg" width="20" height="20" alt="Download your SooperGrid as an SVG"/> SVG</button>
+            <button id="btnSave" onclick="savePNG()" title="Download a PNG"><img src="data/images/icon-download-wh.svg" width="20" height="20" alt="Download your SooperGrid as a PNG"/> PNG</button>
+          </div>
+          <div class="seed-display">
+            <label for="seedInput">Seed:</label>
+            <input type="text" id="seedInput" onkeydown="handleSeedInput(event)" onclick="this.select()" title="Enter a seed value and press Enter to generate that grid" />
+            <button id="btnCopySeed" onclick="copySeedToClipboard()" title="Copy seed value to clipboard"><img src="data/images/icon-copy-wh.svg" width="16" height="16" alt="Copy seed value to clipboard" /></button> 
+          
+            <button id="btnRefresh" onclick="refreshGrid()" title="Refresh the grid using the current settings"><img src="data/images/icon-refresh-wh.svg" width="20" height="20" alt="Refresh the SooperGrid given the current settings" class="inset-btn" />Refresh</button>
+          </div>
+        </div>
+      </div>
+      <div id="ui">
+        <h1><img src="data/images/sooper-grid-mark.svg" width="308" height="66" alt="SooperGrid" class="grid-logo" /></h1>
+        
+        <details>
+          <summary>Instructions</summary>
+          <div class="ui-controls">
+            <p>Build your grid using the controls below. Use the sliders to adjust the number of 
+              cells in the grid, recursion levels, and cell padding.</p>
+            <p>Check the boxes to use Perlin noise for background grid colors and shape colors.</p>
+            <p>Use the randomize buttons to generate random values for your SOOPERgrid.</p>
+          </div>
+        </details>
+
+        <details open>
+          <summary>Grid</summary>
+          <div class="ui-controls">
+            <div class="input-element">
+              <label for="recurseAmt">Levels of recursion (1-8)</label>
+              <div class="sec-desc">Affects the complexity of the grid</div>
+
+              <div class="settings-wrapper">
+                <div id="recurseAmtWrapper">
+                  <input type="range" id="recurseAmt" min="1" max="8" step="1" class="slider"/>
+                  <input type="text" id="recurseVal" readonly />
+                </div>
+                <div class="randomize-ui">
+                  <button class="btn-sm" onclick="randomGridRecursion()" title="Randomize levels of recursion"><img src="data/images/icon-randomize-wh.svg" width="16" height="16" alt="Randomize levels of recursion" /></button>
+                </div>
+              </div>
+
+              <div class="input-element">
+                <label for="cellPadAmt">Cell padding (0-8)</label>
+                <div class="sec-desc">Adjusts the space between shapes within each cell</div>
+
+                <div class="settings-wrapper">
+                  <div id="padAmtWrapper">
+                    <input type="range" id="cellPadAmt" value="0" min="0" max="8" step="1" class="slider" />
+                    <input type="text" id="cellPadVal" readonly />
+                  </div>
+                  <div class="randomize-ui">
+                    <button class="btn-sm" onclick="randomizeCellPadding()" title="Randomize cell padding"><img src="data/images/icon-randomize-wh.svg" width="16" height="16" alt="Randomize levels of recursion" /></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </details>
+        
+        <details open>
+          <summary>Color</summary>
+          <div class="ui-controls">
+            <div class="input-element">
+              <label for="rngNumColors">Number of colors in palette?</label>
+
+              <div class="settings-wrapper">
+                <div id="numClrsAmtWrapper">
+                  <input type="range" id="rngNumColors" min="2" max="9" step="1" class="slider" />
+                  <input type="text" id="rngNumColorsVal" readonly />
+                </div>
+                <div class="randomize-ui">
+                    <button class="btn-sm" onclick="randomColorPalette()" title="Randomize color palette"><img src="data/images/icon-randomize-wh.svg" width="16" height="16" alt="Randomize levels of recursion" /></button>
+                </div>
+              </div>  
+            </div>
+
+            <p class="sec-desc">Want a less chaotic grid? Try turning on <a href="https://en.wikipedia.org/wiki/Perlin_noise" target="_blank">Perlin noise</a> on the background or on the shapes that fill it (or both!)</p>
+            
+              <div class="input-element-switches">
+                <label for="cbPerlinBGClr">Use Perlin noise for BG grid colors?</label>
+                <input type="checkbox" id="cbPerlinBGClr" />
+              </div>
+              
+            
+            
+              <div class="input-element-switches">
+                <label for="cbPerlinShapesClr1">Use Perlin noise for shape colors?</label>
+                <input type="checkbox" id="cbPerlinShapesClr1" />
+              </div>
+              
+          </div>
+        </details>
+        <details open>
+          <summary>Shapes</summary>
+
+          <div class="ui-controls">
+
+            <div class="settings-wrapper">
+              <div class="input-element">
+                <label for="selShapeSet">Select a shape set</label>
+                <select id="selShapeSet" class="select-opt">
+                  <option value="0" selected>Circles 1</option>
+                  <option value="1">Circles 2</option>
+                  <option value="2">Circles 3</option>
+                  <option value="3">Circles 4</option>
+                  <option value="4">Rectangles 1</option>
+                  <option value="5">Rectangles 2</option>
+                  <option value="6">Rectangles 3</option>
+                  <option value="7">Plus sign</option>
+                  <option value="8">Triangles 1</option>
+                  <option value="9">Triangles 2</option>
+                  <option value="10">Triangles 3</option>
+                  <option value="11">Triangle & pinwheel</option>
+                  <option value="12">Arcs 1</option>
+                  <option value="13">Arcs 2</option>
+                  <option value="14">Arcs 3</option>
+                  <option value="15">Diamond & rectangles</option>
+                  <option value="16">Fun mix 1</option>
+                  <option value="17">Fun mix 2</option>
+                  <option value="18">Fun mix 3</option>
+                  <option value="19">Circles & semi-circles</option>
+                  <option value="20">Semi-circles all sides</option>
+                  <option value="21">Semi-circles top & bottom</option>
+                  <option value="22">Semi-circles left & right</option>
+                  <option value="23">Arcs & semi-circles</option>
+                  <option value="24">Circles & bars</option>
+                  <option value="25">Triangles & arcs</option>
+                  <option value="26">Circles & rectangles</option>
+                  <option value="27">Circles & triangles</option>
+                  <option value="28">Petals</option>
+                  <option value="29">Circles & petals</option>
+                  <option value="30">Checkerboard</option>
+                  <option value="31">Double arcs</option>
+                </select>
+              </div>
+
+              <div class="randomize-ui">
+                <button class="btn-sm" onclick="randomShapeSet()" title="Pick a random shape set"><img src="data/images/icon-randomize-wh.svg" width="16" height="16" alt="Randomize levels of recursion" /></button>
+              </div>
+            </div>
+
+            <div class="input-element-sep">
+              - or -
+            </div>
+
+            <div class="settings-wrapper">
+              <div class="input-element">
+                <label for="selIndividualShape">Select an individual shape type</label>
+                <select id="selIndividualShape" class="select-opt">
+                  <option value="1">Rectangle (full width/height)</option>
+                  <option value="2">Circle (almost full width)</option>
+                  <option value="3">Circle (half size)</option>
+                  <option value="4">Circle with inner circle</option>
+                  <option value="5">Rectangle (1/2 size from top)</option>
+                  <option value="6">Triangle (random rotations)</option>
+                  <option value="7">Triangle (top/right)</option>
+                  <option value="8">Triangle (bottom/right)</option>
+                  <option value="9">Triangle (bottom/left)</option>
+                  <option value="10">Rectangle (1/2 size from bottom)</option>
+                  <option value="11">Rectangle (1/2 size from right)</option>
+                  <option value="12">Rectangle (1/2 size from left)</option>
+                  <option value="13">Rectangle (bottom/right)</option>
+                  <option value="14">Rectangle with inner rectangle</option>
+                  <option value="15">Rectangle (top/left)</option>
+                  <option value="16">Rectangle (top/right)</option>
+                  <option value="17">Rectangle (top/left)</option>
+                  <option value="18">Circles (x2 inner circles)</option>
+                  <option value="19">Rectangle (x2 inner rectangles)</option>
+                  <option value="20">Triangle (1/2 height, from top)</option>
+                  <option value="21">Triangle (1/2 height, from bottom)</option>
+                  <option value="22">Rectangle (1/4 size, center full height)</option>
+                  <option value="23">Rectangle (1/4 size, center full width)</option>
+                  <option value="24">Plus sign</option>
+                  <option value="25">Rectangle w/inner circle (2x2 grid)</option>
+                  <option value="26">Rectangle w/inner rectangle (2x2 grid)</option>
+                  <option value="27">Circle (1/4 size, top left)</option>
+                  <option value="28">Circle (1/4 size, top right)</option>
+                  <option value="29">Circle (1/4 size, bottom right)</option>
+                  <option value="30">Circle (1/4 size, bottom left)</option>
+                  <option value="31">Diamond (w/ inner diamond)</option>
+                  <option value="32">Checkerboard (w/ random colors)</option>
+                  <option value="33">Arc (1/4 size, top right, bottom left)</option>
+                  <option value="34">Arc (1/4 size, top left, bottom right)</option>
+                  <option value="35">Semi-circle (from bottom)</option>
+                  <option value="36">Semi-circle (from top)</option>
+                  <option value="37">Semi-circle (from right)</option>
+                  <option value="38">Semi-circle (from left)</option>
+                  <option value="39">Circle (w small inner circle)</option>
+                  <option value="40">Small circle</option>
+                  <option value="41">Petal (bottom right, top left)</option>
+                  <option value="42">Petal (bottom left, top right)</option>
+                  <option value="43">Petal crossed</option>
+                  <option value="48">Checkerboard 8x8 (alt colors)</option>
+                  <option value="49">Checkerboard 4x4 (alt colors)</option>
+                  <option value="50">Checkerboard 2x2 (alt colors)</option>
+                  <option value="52">Circle (1/4 size, top/left)</option>
+                  <option value="53">Circle (1/4 size, top/right)</option>
+                  <option value="54">Circle (1/4 size, bottom/right)</option>
+                  <option value="55">Circle (1/4 size, bottom/left)</option>
+                  <option value="56">Double arc (top/left)</option>
+                  <option value="57">Double arc (top/right)</option>
+                  <option value="58">Double arc (bottom/right)</option>
+                  <option value="59">Double arc (bottom/left)</option>
+                  <option value="60">Pinwheel triangles</option>
+                  <option value="63">Small circle (top/left)</option>
+                  <option value="64">Small circle (top/right)</option>
+                  <option value="65">Small circle (bottom/left)</option>
+                  <option value="66">Small circle (bottom/right)</option>
+                </select>
+              </div>
+
+              <div class="randomize-ui">
+                <button class="btn-sm" onclick="randomIndividualShape()" title="Pick a random individual shape"><img src="data/images/icon-randomize-wh.svg" width="16" height="16" alt="Randomize levels of recursion" /></button>
+              </div>
+
+            </div>
+
+          </div>
+        </details>
+
+      </div>
+    </div>
+    
+    <script src="sketch.js"></script>
+  </body>
+</html>

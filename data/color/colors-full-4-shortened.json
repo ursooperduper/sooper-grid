@@ -1,0 +1,3639 @@
+{
+  "palettes": [
+    {
+      "name": "wada-v1-01--2.png",
+      "numColors": 2,
+      "colors": ["#d64a0a", "#1f889a"]
+    },
+    {
+      "name": "wada-v1-02--2.png",
+      "numColors": 2,
+      "colors": ["#f78300", "#182c40"]
+    },
+    {
+      "name": "wada-v1-04--2.png",
+      "numColors": 2,
+      "colors": ["#bf964c", "#51255f"]
+    },
+    {
+      "name": "wada-v1-05--2.png",
+      "numColors": 2,
+      "colors": ["#3b672f", "#204a6d"]
+    },
+    {
+      "name": "wada-v1-06--2.png",
+      "numColors": 2,
+      "colors": ["#ef6249", "#161a2b"]
+    },
+    {
+      "name": "wada-v1-07--2.png",
+      "numColors": 2,
+      "colors": ["#f05300", "#a9cab6"]
+    },
+    {
+      "name": "wada-v1-08--2.png",
+      "numColors": 2,
+      "colors": ["#be5f28", "#acaa8d"]
+    },
+    {
+      "name": "wada-v1-100--2.png",
+      "numColors": 2,
+      "colors": ["#8c7733", "#6f6395"]
+    },
+    {
+      "name": "wada-v1-101--2.png",
+      "numColors": 2,
+      "colors": ["#ddaba8", "#23407e"]
+    },
+    {
+      "name": "wada-v1-102--2.png",
+      "numColors": 2,
+      "colors": ["#e7cb8c", "#be520c"]
+    },
+    {
+      "name": "wada-v1-103--2.png",
+      "numColors": 2,
+      "colors": ["#be5f28", "#482045"]
+    },
+    {
+      "name": "wada-v1-104--2.png",
+      "numColors": 2,
+      "colors": ["#a01e26", "#f4eab2"]
+    },
+    {
+      "name": "wada-v1-105--2.png",
+      "numColors": 2,
+      "colors": ["#ddaba8", "#617e56"]
+    },
+    {
+      "name": "wada-v1-106--2.png",
+      "numColors": 2,
+      "colors": ["#ff662b", "#19213a"]
+    },
+    {
+      "name": "wada-v1-107--2.png",
+      "numColors": 2,
+      "colors": ["#ffcd98", "#75704a"]
+    },
+    {
+      "name": "wada-v1-108--2.png",
+      "numColors": 2,
+      "colors": ["#ed1c24", "#a1a1a1"]
+    },
+    {
+      "name": "wada-v1-109--2.png",
+      "numColors": 2,
+      "colors": ["#ffeb98", "#333e2b"]
+    },
+    {
+      "name": "wada-v1-11--2.png",
+      "numColors": 2,
+      "colors": ["#e7cb8c", "#96a9a0"]
+    },
+    {
+      "name": "wada-v1-110--2.png",
+      "numColors": 2,
+      "colors": ["#70311a", "#412716"]
+    },
+    {
+      "name": "wada-v1-111--2.png",
+      "numColors": 2,
+      "colors": ["#ffeb98", "#a1ca4d"]
+    },
+    {
+      "name": "wada-v1-112--2.png",
+      "numColors": 2,
+      "colors": ["#ef6249", "#171f2b"]
+    },
+    {
+      "name": "wada-v1-113--2.png",
+      "numColors": 2,
+      "colors": ["#fbcbaf", "#412716"]
+    },
+    {
+      "name": "wada-v1-114--2.png",
+      "numColors": 2,
+      "colors": ["#fa9d00", "#016687"]
+    },
+    {
+      "name": "wada-v1-115--2.png",
+      "numColors": 2,
+      "colors": ["#fae087", "#ec3a10"]
+    },
+    {
+      "name": "wada-v1-116--2.png",
+      "numColors": 2,
+      "colors": ["#ddaba8", "#54467f"]
+    },
+    {
+      "name": "wada-v1-117--2.png",
+      "numColors": 2,
+      "colors": ["#c00b1c", "#000000"]
+    },
+    {
+      "name": "wada-v1-118--2.png",
+      "numColors": 2,
+      "colors": ["#dea31d", "#412716"]
+    },
+    {
+      "name": "wada-v1-119--2.png",
+      "numColors": 2,
+      "colors": ["#99c7cb", "#182c40"]
+    },
+    {
+      "name": "wada-v1-12--2.png",
+      "numColors": 2,
+      "colors": ["#bf964c", "#248b8a"]
+    },
+    {
+      "name": "wada-v1-120--2.png",
+      "numColors": 2,
+      "colors": ["#ddaba8", "#a11726"]
+    },
+    {
+      "name": "wada-v1-13--2.png",
+      "numColors": 2,
+      "colors": ["#b65a0a", "#823A53"]
+    },
+    {
+      "name": "wada-v1-14--2.png",
+      "numColors": 2,
+      "colors": ["#eb8051", "#f8e08b"]
+    },
+    {
+      "name": "wada-v1-15--2.png",
+      "numColors": 2,
+      "colors": ["#00867c", "#acaa8d"]
+    },
+    {
+      "name": "wada-v1-16--2.png",
+      "numColors": 2,
+      "colors": ["#791b17", "#9a933a"]
+    },
+    {
+      "name": "wada-v1-17--2.png",
+      "numColors": 2,
+      "colors": ["#d23314", "#1e9e7e"]
+    },
+    {
+      "name": "wada-v1-18--2.png",
+      "numColors": 2,
+      "colors": ["#ca94a3", "#482045"]
+    },
+    {
+      "name": "wada-v1-19--2.png",
+      "numColors": 2,
+      "colors": ["#592710", "#78b315"]
+    },
+    {
+      "name": "wada-v1-20--2.png",
+      "numColors": 2,
+      "colors": ["#6dc9ec", "#c2809e"]
+    },
+    {
+      "name": "wada-v1-21--2.png",
+      "numColors": 2,
+      "colors": ["#ef6249", "#1ea684"]
+    },
+    {
+      "name": "wada-v1-22--2.png",
+      "numColors": 2,
+      "colors": ["#ffe200", "#233f7e"]
+    },
+    {
+      "name": "wada-v1-23--2.png",
+      "numColors": 2,
+      "colors": ["#f6b659", "#8c61a4"]
+    },
+    {
+      "name": "wada-v1-24--2.png",
+      "numColors": 2,
+      "colors": ["#583A14", "#823A53"]
+    },
+    {
+      "name": "wada-v1-26--2.png",
+      "numColors": 2,
+      "colors": ["#f28c33", "#663F22"]
+    },
+    {
+      "name": "wada-v1-27--2.png",
+      "numColors": 2,
+      "colors": ["#f5a5b1", "#313b46"]
+    },
+    {
+      "name": "wada-v1-28--2.png",
+      "numColors": 2,
+      "colors": ["#6c2113", "#161A2B"]
+    },
+    {
+      "name": "wada-v1-29--2.png",
+      "numColors": 2,
+      "colors": ["#767846", "#8ba6c3"]
+    },
+    {
+      "name": "wada-v1-30--2.png",
+      "numColors": 2,
+      "colors": ["#A21726", "#96A9A0"]
+    },
+    {
+      "name": "wada-v1-31--2.png",
+      "numColors": 2,
+      "colors": ["#da2809", "#ffeb98"]
+    },
+    {
+      "name": "wada-v1-32--2.png",
+      "numColors": 2,
+      "colors": ["#d3935f", "#78b315"]
+    },
+    {
+      "name": "wada-v1-33--2.png",
+      "numColors": 2,
+      "colors": ["#b65a0a", "#313b46"]
+    },
+    {
+      "name": "wada-v1-34--2.png",
+      "numColors": 2,
+      "colors": ["#ed6185", "#ACBAB6"]
+    },
+    {
+      "name": "wada-v1-35--2.png",
+      "numColors": 2,
+      "colors": ["#aa817d", "#a01726"]
+    },
+    {
+      "name": "wada-v1-36--2.png",
+      "numColors": 2,
+      "colors": ["#bb8e0b", "#abddd8"]
+    },
+    {
+      "name": "wada-v1-37--2.png",
+      "numColors": 2,
+      "colors": ["#A21726", "#51255F"]
+    },
+    {
+      "name": "wada-v1-38--2.png",
+      "numColors": 2,
+      "colors": ["#24752A", "#23407E"]
+    },
+    {
+      "name": "wada-v1-39--2.png",
+      "numColors": 2,
+      "colors": ["#c00b1c", "#105385"]
+    },
+    {
+      "name": "wada-v1-40--2.png",
+      "numColors": 2,
+      "colors": ["#C3480C", "#a7a819"]
+    },
+    {
+      "name": "wada-v1-41--2.png",
+      "numColors": 2,
+      "colors": ["#7e7241", "#6DCAE5"]
+    },
+    {
+      "name": "wada-v1-42--2.png",
+      "numColors": 2,
+      "colors": ["#DEA31C", "#463A7E"]
+    },
+    {
+      "name": "wada-v1-43--2.png",
+      "numColors": 2,
+      "colors": ["#f5a5b1", "#96559D"]
+    },
+    {
+      "name": "wada-v1-44--2.png",
+      "numColors": 2,
+      "colors": ["#1C857C", "#4A79AE"]
+    },
+    {
+      "name": "wada-v1-45--2.png",
+      "numColors": 2,
+      "colors": ["#fbcbb0", "#f6e226"]
+    },
+    {
+      "name": "wada-v1-46--2.png",
+      "numColors": 2,
+      "colors": ["#f05300", "#000000"]
+    },
+    {
+      "name": "wada-v1-47--2.png",
+      "numColors": 2,
+      "colors": ["#c1392e", "#b79ea8"]
+    },
+    {
+      "name": "wada-v1-48--2.png",
+      "numColors": 2,
+      "colors": ["#af2a65", "#105385"]
+    },
+    {
+      "name": "wada-v1-49--2.png",
+      "numColors": 2,
+      "colors": ["#9ed6e1", "#0f66ae"]
+    },
+    {
+      "name": "wada-v1-50--2.png",
+      "numColors": 2,
+      "colors": ["#e7cb8c", "#482045"]
+    },
+    {
+      "name": "wada-v1-51--2.png",
+      "numColors": 2,
+      "colors": ["#A21726", "#0f66ae"]
+    },
+    {
+      "name": "wada-v1-52--2.png",
+      "numColors": 2,
+      "colors": ["#f4eab2", "#000000"]
+    },
+    {
+      "name": "wada-v1-53--2.png",
+      "numColors": 2,
+      "colors": ["#f78300", "#482045"]
+    },
+    {
+      "name": "wada-v1-54--2.png",
+      "numColors": 2,
+      "colors": ["#00867C", "#99c7cb"]
+    },
+    {
+      "name": "wada-v1-56--2.png",
+      "numColors": 2,
+      "colors": ["#b79ea8", "#463A7E"]
+    },
+    {
+      "name": "wada-v1-58--2.png",
+      "numColors": 2,
+      "colors": ["#6F251D", "#1da684"]
+    },
+    {
+      "name": "wada-v1-60--2.png",
+      "numColors": 2,
+      "colors": ["#ffeb98", "#182c40"]
+    },
+    {
+      "name": "wada-v1-61--2.png",
+      "numColors": 2,
+      "colors": ["#bcc62c", "#46273b"]
+    },
+    {
+      "name": "wada-v1-62--2.png",
+      "numColors": 2,
+      "colors": ["#ffe200", "#000000"]
+    },
+    {
+      "name": "wada-v1-63--2.png",
+      "numColors": 2,
+      "colors": ["#5E3035", "#1F889A"]
+    },
+    {
+      "name": "wada-v1-64--2.png",
+      "numColors": 2,
+      "colors": ["#96559D", "#555594"]
+    },
+    {
+      "name": "wada-v1-65--2.png",
+      "numColors": 2,
+      "colors": ["#bb8e0b", "#6DCAE5"]
+    },
+    {
+      "name": "wada-v1-66--2.png",
+      "numColors": 2,
+      "colors": ["#bb8e0b", "#5E5F2D"]
+    },
+    {
+      "name": "wada-v1-67--2.png",
+      "numColors": 2,
+      "colors": ["#4A79AE", "#182c40"]
+    },
+    {
+      "name": "wada-v1-68--2.png",
+      "numColors": 2,
+      "colors": ["#aa817d", "#ffe200"]
+    },
+    {
+      "name": "wada-v1-69--2.png",
+      "numColors": 2,
+      "colors": ["#959A8A", "#000000"]
+    },
+    {
+      "name": "wada-v1-70--2.png",
+      "numColors": 2,
+      "colors": ["#b65a0a", "#484725"]
+    },
+    {
+      "name": "wada-v1-71--2.png",
+      "numColors": 2,
+      "colors": ["#a21726", "#d3935f"]
+    },
+    {
+      "name": "wada-v1-72--2.png",
+      "numColors": 2,
+      "colors": ["#f4eab2", "#9ed6e1"]
+    },
+    {
+      "name": "wada-v1-74--2.png",
+      "numColors": 2,
+      "colors": ["#abddd8", "#24878A"]
+    },
+    {
+      "name": "wada-v1-75--2.png",
+      "numColors": 2,
+      "colors": ["#9ed6e1", "#3A3E63"]
+    },
+    {
+      "name": "wada-v1-76--2.png",
+      "numColors": 2,
+      "colors": ["#ffeb98", "#959A8A"]
+    },
+    {
+      "name": "wada-v1-77--2.png",
+      "numColors": 2,
+      "colors": ["#d23344", "#204A6D"]
+    },
+    {
+      "name": "wada-v1-79--2.png",
+      "numColors": 2,
+      "colors": ["#6c2113", "#24878A"]
+    },
+    {
+      "name": "wada-v1-80--2.png",
+      "numColors": 2,
+      "colors": ["#f4eab2", "#8C61A4"]
+    },
+    {
+      "name": "wada-v1-81--2.png",
+      "numColors": 2,
+      "colors": ["#f28c33", "#959A8A"]
+    },
+    {
+      "name": "wada-v1-82--2.png",
+      "numColors": 2,
+      "colors": ["#6F251D", "#482045"]
+    },
+    {
+      "name": "wada-v1-83--2.png",
+      "numColors": 2,
+      "colors": ["#b9be7d", "#3A3E63"]
+    },
+    {
+      "name": "wada-v1-85--2.png",
+      "numColors": 2,
+      "colors": ["#c3480c", "#016687"]
+    },
+    {
+      "name": "wada-v1-88--2.png",
+      "numColors": 2,
+      "colors": ["#fbcbb0", "#0f66ae"]
+    },
+    {
+      "name": "wada-v1-89--2.png",
+      "numColors": 2,
+      "colors": ["#f78300", "#3A3E63"]
+    },
+    {
+      "name": "wada-v1-93--2.png",
+      "numColors": 2,
+      "colors": ["#9b8411", "#99c7cb"]
+    },
+    {
+      "name": "wada-v1-94--2.png",
+      "numColors": 2,
+      "colors": ["#e7cb8c", "#023C36"]
+    },
+    {
+      "name": "wada-v1-95--2.png",
+      "numColors": 2,
+      "colors": ["#6F251D", "#19213A"]
+    },
+    {
+      "name": "wada-v1-98--2.png",
+      "numColors": 2,
+      "colors": ["#6c2113", "#3A3E63"]
+    },
+    {
+      "name": "wada-v1-99--2.png",
+      "numColors": 2,
+      "colors": ["#ffeb98", "#1f889a"]
+    },
+    {
+      "name": "grape-ape--2.png",
+      "numColors": 2,
+      "colors": ["#bb22b2", "#d8df18"]
+    },
+    {
+      "name": "raptorwave--2.png",
+      "numColors": 2,
+      "colors": ["#d9de1b", "#00b591"]
+    },
+    {
+      "name": "apricot-gummy--2.png",
+      "numColors": 2,
+      "colors": ["#f6b902", "#f13c7f"]
+    },
+    {
+      "name": "middle-school-polo--2.png",
+      "numColors": 2,
+      "colors": ["#ec4172", "#4f40c3"]
+    },
+    {
+      "name": "smooth-grapple--2.png",
+      "numColors": 2,
+      "colors": ["#5436a9", "#c8cef4"]
+    },
+    {
+      "name": "wada-v2-193--2.png",
+      "numColors": 2,
+      "colors": ["#89cc94", "#FFFFFF"]
+    },
+    {
+      "name": "wada-v2-172--2.png",
+      "numColors": 2,
+      "colors": ["#24878A", "#f1f6e4"]
+    },
+    {
+      "name": "wada-v1-25--2.png",
+      "numColors": 2,
+      "colors": ["#c1392e", "#b5e5e0"]
+    },
+    {
+      "name": "wada-v1-121--3.png",
+      "numColors": 3,
+      "colors": ["#70311a", "#d3a395", "#444037"]
+    },
+    {
+      "name": "wada-v1-122--3.png",
+      "numColors": 3,
+      "colors": ["#c00b1c", "#fada00", "#00867c"]
+    },
+    {
+      "name": "wada-v1-123--3.png",
+      "numColors": 3,
+      "colors": ["#f1734b", "#f6e226", "#683144"]
+    },
+    {
+      "name": "wada-v1-124--3.png",
+      "numColors": 3,
+      "colors": ["#721b1b", "#dee3b4", "#9a933a"]
+    },
+    {
+      "name": "wada-v1-125--3.png",
+      "numColors": 3,
+      "colors": ["#caa496", "#1f889a", "#3a3e63"]
+    },
+    {
+      "name": "wada-v1-126--3.png",
+      "numColors": 3,
+      "colors": ["#e7cb8c", "#deab8a", "#233f7f"]
+    },
+    {
+      "name": "wada-v1-127--3.png",
+      "numColors": 3,
+      "colors": ["#fbb65d", "#558368", "#555594"]
+    },
+    {
+      "name": "wada-v1-128--3.png",
+      "numColors": 3,
+      "colors": ["#f5a5b1", "#58c0ae", "#8c61a4"]
+    },
+    {
+      "name": "wada-v1-129--3.png",
+      "numColors": 3,
+      "colors": ["#ffcd98", "#b7750e", "#8ba6c3"]
+    },
+    {
+      "name": "wada-v1-130--3.png",
+      "numColors": 3,
+      "colors": ["#b65a0a", "#a01e26", "#463a73"]
+    },
+    {
+      "name": "wada-v1-131--3.png",
+      "numColors": 3,
+      "colors": ["#b65a0a", "#d64a0a", "#00848e"]
+    },
+    {
+      "name": "wada-v1-132--3.png",
+      "numColors": 3,
+      "colors": ["#f4eab2", "#f28e33", "#9b8411"]
+    },
+    {
+      "name": "wada-v1-133--3.png",
+      "numColors": 3,
+      "colors": ["#791b17", "#9b8411", "#1ea682"]
+    },
+    {
+      "name": "wada-v1-134--3.png",
+      "numColors": 3,
+      "colors": ["#ed1c24", "#8c7733", "#51255f"]
+    },
+    {
+      "name": "wada-v1-135--3.png",
+      "numColors": 3,
+      "colors": ["#f4eab2", "#3b672f", "#8ba6c3"]
+    },
+    {
+      "name": "wada-v1-136--3.png",
+      "numColors": 3,
+      "colors": ["#c71a29", "#1e842f", "#51255f"]
+    },
+    {
+      "name": "wada-v1-137--3.png",
+      "numColors": 3,
+      "colors": ["#c13a2d", "#fbb65d", "#557b68"]
+    },
+    {
+      "name": "wada-v1-138--3.png",
+      "numColors": 3,
+      "colors": ["#f28c33", "#f6e226", "#58c0ae"]
+    },
+    {
+      "name": "wada-v1-139--3.png",
+      "numColors": 3,
+      "colors": ["#8ba6c3", "#161a2b", "#acbaba"]
+    },
+    {
+      "name": "wada-v1-140--3.png",
+      "numColors": 3,
+      "colors": ["#f28e33", "#016687", "#313b46"]
+    },
+    {
+      "name": "wada-v1-141--3.png",
+      "numColors": 3,
+      "colors": ["#f05300", "#a1ca4d", "#1b2c40"]
+    },
+    {
+      "name": "wada-v1-142--3.png",
+      "numColors": 3,
+      "colors": ["#a73040", "#bb8e0b", "#8ba6c3"]
+    },
+    {
+      "name": "wada-v1-143--3.png",
+      "numColors": 3,
+      "colors": ["#0f66ae", "#ae72a9", "#959a8a"]
+    },
+    {
+      "name": "wada-v1-144--3.png",
+      "numColors": 3,
+      "colors": ["#af2a65", "#f05300", "#000000"]
+    },
+    {
+      "name": "wada-v1-145--3.png",
+      "numColors": 3,
+      "colors": ["#70311a", "#a7a819", "#19213a"]
+    },
+    {
+      "name": "wada-v1-146--3.png",
+      "numColors": 3,
+      "colors": ["#b7750d", "#55492a", "#247c96"]
+    },
+    {
+      "name": "wada-v1-147--3.png",
+      "numColors": 3,
+      "colors": ["#eb8051", "#791b17", "#abddbe"]
+    },
+    {
+      "name": "wada-v1-148--3.png",
+      "numColors": 3,
+      "colors": ["#d0a31c", "#fa9d00", "#1f2240"]
+    },
+    {
+      "name": "wada-v1-149--3.png",
+      "numColors": 3,
+      "colors": ["#d0a31c", "#f05300", "#141e1f"]
+    },
+    {
+      "name": "wada-v1-150--3.png",
+      "numColors": 3,
+      "colors": ["#fbcbb2", "#a7a819", "#a9cab6"]
+    },
+    {
+      "name": "wada-v1-151--3.png",
+      "numColors": 3,
+      "colors": ["#f4eab2", "#f78300", "#204a6d"]
+    },
+    {
+      "name": "wada-v1-152--3.png",
+      "numColors": 3,
+      "colors": ["#c13a2d", "#6f251d", "#99c7cb"]
+    },
+    {
+      "name": "wada-v1-153--3.png",
+      "numColors": 3,
+      "colors": ["#ed1c24", "#fa9d00", "#a7a819"]
+    },
+    {
+      "name": "wada-v1-154--3.png",
+      "numColors": 3,
+      "colors": ["#c00b1c", "#ffcd98", "#0f66ae"]
+    },
+    {
+      "name": "wada-v1-155--3.png",
+      "numColors": 3,
+      "colors": ["#e8340d", "#00867c", "#161a2b"]
+    },
+    {
+      "name": "wada-v1-156--3.png",
+      "numColors": 3,
+      "colors": ["#d0a31c", "#89c8c8", "#464a7e"]
+    },
+    {
+      "name": "wada-v1-157--3.png",
+      "numColors": 3,
+      "colors": ["#721b1a", "#d0a31c", "#4a79a3"]
+    },
+    {
+      "name": "wada-v1-158--3.png",
+      "numColors": 3,
+      "colors": ["#f6e226", "#be5f28", "#78b315"]
+    },
+    {
+      "name": "wada-v1-159--3.png",
+      "numColors": 3,
+      "colors": ["#b7750d", "#6dcaec", "#acaa8d"]
+    },
+    {
+      "name": "wada-v1-160--3.png",
+      "numColors": 3,
+      "colors": ["#bb8e0b", "#663f22", "#455f68"]
+    },
+    {
+      "name": "wada-v1-161--3.png",
+      "numColors": 3,
+      "colors": ["#70311a", "#ec644b", "#105385"]
+    },
+    {
+      "name": "wada-v1-162--3.png",
+      "numColors": 3,
+      "colors": ["#cd5066", "#687743", "#ae72a9"]
+    },
+    {
+      "name": "wada-v1-163--3.png",
+      "numColors": 3,
+      "colors": ["#ffcd98", "#abddd8", "#016687"]
+    },
+    {
+      "name": "wada-v1-164--3.png",
+      "numColors": 3,
+      "colors": ["#da2809", "#f99d00", "#463a7e"]
+    },
+    {
+      "name": "wada-v1-165--3.png",
+      "numColors": 3,
+      "colors": ["#ddaba8", "#eb8051", "#5a3454"]
+    },
+    {
+      "name": "wada-v1-166--3.png",
+      "numColors": 3,
+      "colors": ["#ef6249", "#fae087", "#141e1f"]
+    },
+    {
+      "name": "wada-v1-167--3.png",
+      "numColors": 3,
+      "colors": ["#baa37f", "#9ed6e1", "#204a6d"]
+    },
+    {
+      "name": "wada-v1-168--3.png",
+      "numColors": 3,
+      "colors": ["#f6e226", "#204a6d", "#823b5e"]
+    },
+    {
+      "name": "wada-v1-169--3.png",
+      "numColors": 3,
+      "colors": ["#f5a5b1", "#ffeb98", "#959a8a"]
+    },
+    {
+      "name": "wada-v1-170--3.png",
+      "numColors": 3,
+      "colors": ["#af2a65", "#f99d00", "#51255f"]
+    },
+    {
+      "name": "wada-v1-171--3.png",
+      "numColors": 3,
+      "colors": ["#721b1b", "#f78300", "#a9cab6"]
+    },
+    {
+      "name": "wada-v1-172--3.png",
+      "numColors": 3,
+      "colors": ["#be5f28", "#016687", "#51255f"]
+    },
+    {
+      "name": "wada-v1-173--3.png",
+      "numColors": 3,
+      "colors": ["#f6e226", "#683144", "#abddd8"]
+    },
+    {
+      "name": "wada-v1-174--3.png",
+      "numColors": 3,
+      "colors": ["#f5a5b1", "#B79EA8", "#683144"]
+    },
+    {
+      "name": "wada-v1-175--3.png",
+      "numColors": 3,
+      "colors": ["#ECA463", "#B7BE7D", "#544395"]
+    },
+    {
+      "name": "wada-v1-176--3.png",
+      "numColors": 3,
+      "colors": ["#f6b3cb", "#fbcbb0", "#6dc9ec"]
+    },
+    {
+      "name": "wada-v1-177--3.png",
+      "numColors": 3,
+      "colors": ["#721b1b", "#8c7733", "#acaa8d"]
+    },
+    {
+      "name": "wada-v1-178--3.png",
+      "numColors": 3,
+      "colors": ["#e7cb8c", "#99c7cb", "#24878a"]
+    },
+    {
+      "name": "wada-v1-179--3.png",
+      "numColors": 3,
+      "colors": ["#da2809", "#f28c33", "#233f7e"]
+    },
+    {
+      "name": "wada-v1-180--3.png",
+      "numColors": 3,
+      "colors": ["#f6b659", "#8c7733", "#acbaae"]
+    },
+    {
+      "name": "wada-v1-181--3.png",
+      "numColors": 3,
+      "colors": ["#a01e2f", "#463a7e", "#46173b"]
+    },
+    {
+      "name": "wada-v1-182--3.png",
+      "numColors": 3,
+      "colors": ["#b65a0a", "#281c1c", "#161a2b"]
+    },
+    {
+      "name": "wada-v1-183--3.png",
+      "numColors": 3,
+      "colors": ["#616670", "#823b5e", "#51255f"]
+    },
+    {
+      "name": "wada-v1-184--3.png",
+      "numColors": 3,
+      "colors": ["#eb8051", "#f6e226", "#557b68"]
+    },
+    {
+      "name": "wada-v1-185--3.png",
+      "numColors": 3,
+      "colors": ["#aa817d", "#c1392d", "#ffeb98"]
+    },
+    {
+      "name": "wada-v1-186--3.png",
+      "numColors": 3,
+      "colors": ["#6f251d", "#d3935f", "#0f66ae"]
+    },
+    {
+      "name": "wada-v1-187--3.png",
+      "numColors": 3,
+      "colors": ["#105385", "#b79ea8", "#96559d"]
+    },
+    {
+      "name": "wada-v1-188--3.png",
+      "numColors": 3,
+      "colors": ["#687743", "#8BA6C3", "#89c8c8"]
+    },
+    {
+      "name": "wada-v1-189--3.png",
+      "numColors": 3,
+      "colors": ["#f6e226", "#21241d", "#58c0ae"]
+    },
+    {
+      "name": "wada-v1-190--3.png",
+      "numColors": 3,
+      "colors": ["#e7cb8c", "#d64a0a", "#000000"]
+    },
+    {
+      "name": "wada-v1-191--3.png",
+      "numColors": 3,
+      "colors": ["#aa817d", "#decb8b", "#0f66ae"]
+    },
+    {
+      "name": "wada-v1-192--3.png",
+      "numColors": 3,
+      "colors": ["#faad43", "#412716", "#616670"]
+    },
+    {
+      "name": "wada-v1-193--3.png",
+      "numColors": 3,
+      "colors": ["#ef6249", "#FAE087", "#1c857c"]
+    },
+    {
+      "name": "wada-v1-194--3.png",
+      "numColors": 3,
+      "colors": ["#E83403", "#FBCBB0", "#4A79AE"]
+    },
+    {
+      "name": "wada-v1-195--3.png",
+      "numColors": 3,
+      "colors": ["#EB5081", "#FFEB98", "#ACBAB6"]
+    },
+    {
+      "name": "wada-v1-196--3.png",
+      "numColors": 3,
+      "colors": ["#a7a819", "#9ed6e1", "#3a3e63"]
+    },
+    {
+      "name": "wada-v1-197--3.png",
+      "numColors": 3,
+      "colors": ["#ED6185", "#554594", "#89c8c8"]
+    },
+    {
+      "name": "wada-v1-198--3.png",
+      "numColors": 3,
+      "colors": ["#a8391a", "#FFCD00", "#3F8D56"]
+    },
+    {
+      "name": "wada-v1-199--3.png",
+      "numColors": 3,
+      "colors": ["#a13c36", "#735c35", "#233f7e"]
+    },
+    {
+      "name": "wada-v1-200--3.png",
+      "numColors": 3,
+      "colors": ["#a01e2f", "#B9BE7D", "#618656"]
+    },
+    {
+      "name": "wada-v1-201--3.png",
+      "numColors": 3,
+      "colors": ["#ef6249", "#786d18", "#89c8c8"]
+    },
+    {
+      "name": "wada-v1-202--3.png",
+      "numColors": 3,
+      "colors": ["#abddd8", "#89c8c8", "#313b46"]
+    },
+    {
+      "name": "wada-v1-203--3.png",
+      "numColors": 3,
+      "colors": ["#ffeb98", "#ec644b", "#484725"]
+    },
+    {
+      "name": "wada-v1-204--3.png",
+      "numColors": 3,
+      "colors": ["#af2a65", "#be5f28", "#98C7CB"]
+    },
+    {
+      "name": "wada-v1-205--3.png",
+      "numColors": 3,
+      "colors": ["#721b1b", "#EC9475", "#463a7e"]
+    },
+    {
+      "name": "wada-v1-206--3.png",
+      "numColors": 3,
+      "colors": ["#F5A5B1", "#f28c33", "#be5e00"]
+    },
+    {
+      "name": "wada-v1-207--3.png",
+      "numColors": 3,
+      "colors": ["#98513A", "#a9cab6", "#000000"]
+    },
+    {
+      "name": "wada-v1-208--3.png",
+      "numColors": 3,
+      "colors": ["#f4eab2", "#24878a", "#000000"]
+    },
+    {
+      "name": "wada-v1-209--3.png",
+      "numColors": 3,
+      "colors": ["#E7CB8C", "#f78300", "#8ba6c3"]
+    },
+    {
+      "name": "wada-v1-210--3.png",
+      "numColors": 3,
+      "colors": ["#f6b659", "#f6e226", "#484725"]
+    },
+    {
+      "name": "wada-v1-211--3.png",
+      "numColors": 3,
+      "colors": ["#f26f2e", "#9a953a", "#161a2b"]
+    },
+    {
+      "name": "wada-v1-212--3.png",
+      "numColors": 3,
+      "colors": ["#a21726", "#8d5b18", "#8ba6c3"]
+    },
+    {
+      "name": "wada-v1-213--3.png",
+      "numColors": 3,
+      "colors": ["#EC9475", "#FFCD00", "#9ED6E1"]
+    },
+    {
+      "name": "wada-v1-214--3.png",
+      "numColors": 3,
+      "colors": ["#E7CB8C", "#98513A", "#8ba6c3"]
+    },
+    {
+      "name": "wada-v1-215--3.png",
+      "numColors": 3,
+      "colors": ["#faad43", "#0f66ae", "#b53e88"]
+    },
+    {
+      "name": "wada-v1-216--3.png",
+      "numColors": 3,
+      "colors": ["#e83403", "#408d56", "#000000"]
+    },
+    {
+      "name": "wada-v1-217--3.png",
+      "numColors": 3,
+      "colors": ["#721b1b", "#d3935f", "#25752a"]
+    },
+    {
+      "name": "wada-v1-218--3.png",
+      "numColors": 3,
+      "colors": ["#0f53a5", "#ACAAD5", "#616670"]
+    },
+    {
+      "name": "wada-v1-219--3.png",
+      "numColors": 3,
+      "colors": ["#e83402", "#618656", "#023c36"]
+    },
+    {
+      "name": "wada-v1-220--3.png",
+      "numColors": 3,
+      "colors": ["#b21345", "#d3935f", "#96559d"]
+    },
+    {
+      "name": "wada-v1-222--3.png",
+      "numColors": 3,
+      "colors": ["#DEA31C", "#f78300", "#be510d"]
+    },
+    {
+      "name": "wada-v1-223--3.png",
+      "numColors": 3,
+      "colors": ["#aa817d", "#d3935f", "#abddd8"]
+    },
+    {
+      "name": "wada-v1-224--3.png",
+      "numColors": 3,
+      "colors": ["#ec5081", "#456368", "#682d44"]
+    },
+    {
+      "name": "wada-v1-225--3.png",
+      "numColors": 3,
+      "colors": ["#c0101b", "#023C36", "#6a3950"]
+    },
+    {
+      "name": "wada-v1-226--3.png",
+      "numColors": 3,
+      "colors": ["#aa817d", "#d3935f", "#abddd8"]
+    },
+    {
+      "name": "wada-v1-227--3.png",
+      "numColors": 3,
+      "colors": ["#ec5081", "#456368", "#682d44"]
+    },
+    {
+      "name": "wada-v1-228--3.png",
+      "numColors": 3,
+      "colors": ["#c0101b", "#023C36", "#6a3950"]
+    },
+    {
+      "name": "wada-v1-229--3.png",
+      "numColors": 3,
+      "colors": ["#5e3035", "#faad43", "#463a7e"]
+    },
+    {
+      "name": "wada-v1-230--3.png",
+      "numColors": 3,
+      "colors": ["#f6b3cb", "#98c7cb", "#1e889a"]
+    },
+    {
+      "name": "wada-v1-231--3.png",
+      "numColors": 3,
+      "colors": ["#a01e25", "#ffeb98", "#ACBAB6"]
+    },
+    {
+      "name": "wada-v1-232--3.png",
+      "numColors": 3,
+      "colors": ["#f28c33", "#22241d", "#acbab6"]
+    },
+    {
+      "name": "wada-v1-233--3.png",
+      "numColors": 3,
+      "colors": ["#ef6249", "#abddd8", "#89c8c8"]
+    },
+    {
+      "name": "wada-v1-234--3.png",
+      "numColors": 3,
+      "colors": ["#dda7ac", "#6f251d", "#4A79AE"]
+    },
+    {
+      "name": "wada-v1-235--3.png",
+      "numColors": 3,
+      "colors": ["#c0101b", "#eca463", "#161a2b"]
+    },
+    {
+      "name": "wada-v1-236--3.png",
+      "numColors": 3,
+      "colors": ["#a01e25", "#8c7733", "#3a3e63"]
+    },
+    {
+      "name": "wada-v1-237--3.png",
+      "numColors": 3,
+      "colors": ["#f6b659", "#654022", "#9ed6e1"]
+    },
+    {
+      "name": "wada-v1-238--3.png",
+      "numColors": 3,
+      "colors": ["#E7CB8C", "#f78300", "#b79ea8"]
+    },
+    {
+      "name": "wada-v1-239--3.png",
+      "numColors": 3,
+      "colors": ["#b7750b", "#23407e", "#764349"]
+    },
+    {
+      "name": "wada-v1-240--3.png",
+      "numColors": 3,
+      "colors": ["#a01e25", "#6c2113", "#8ba6c3"]
+    },
+    {
+      "name": "wada-v1-241--3.png",
+      "numColors": 3,
+      "colors": ["#d3935f", "#45173b", "#959A89"]
+    },
+    {
+      "name": "wada-v1-242--3.png",
+      "numColors": 3,
+      "colors": ["#aa817d", "#c3a433", "#a9cab6"]
+    },
+    {
+      "name": "wada-v1-243--3.png",
+      "numColors": 3,
+      "colors": ["#f07765", "#ffe201", "#1e889a"]
+    },
+    {
+      "name": "wada-v2-101--3.png",
+      "numColors": 3,
+      "colors": ["#da2809", "#FFFFFF", "#000000"]
+    },
+    {
+      "name": "wada-v2-109--3.png",
+      "numColors": 3,
+      "colors": ["#ec5081", "#FFFFFF", "#000000"]
+    },
+    {
+      "name": "wada-v2-110--3.png",
+      "numColors": 3,
+      "colors": ["#4A79AE", "#FFFFFF", "#000000"]
+    },
+    {
+      "name": "wada-v2-117--3.png",
+      "numColors": 3,
+      "colors": ["#f1736d", "#f4eab2", "#000000"]
+    },
+    {
+      "name": "wada-v2-118--3.png",
+      "numColors": 3,
+      "colors": ["#ffeb98", "#d64a0b", "#000000"]
+    },
+    {
+      "name": "wada-v2-119--3.png",
+      "numColors": 3,
+      "colors": ["#f1736d", "#555594", "#97A9A1"]
+    },
+    {
+      "name": "wada-v2-121--3.png",
+      "numColors": 3,
+      "colors": ["#AF2A65", "#FFFFFF", "#000000"]
+    },
+    {
+      "name": "wada-v2-122--3.png",
+      "numColors": 3,
+      "colors": ["#f26f2e", "#FFFFFF", "#000000"]
+    },
+    {
+      "name": "wada-v2-123--3.png",
+      "numColors": 3,
+      "colors": ["#b21345", "#FFFFFF", "#000000"]
+    },
+    {
+      "name": "wada-v2-126--3.png",
+      "numColors": 3,
+      "colors": ["#bb8e09", "#ACBAB6", "#000000"]
+    },
+    {
+      "name": "wada-v2-127--3.png",
+      "numColors": 3,
+      "colors": ["#fa9d01", "#408D56", "#000000"]
+    },
+    {
+      "name": "wada-v2-129--3.png",
+      "numColors": 3,
+      "colors": ["#bb8e09", "#00867C", "#0f5385"]
+    },
+    {
+      "name": "wada-v2-130--3.png",
+      "numColors": 3,
+      "colors": ["#ffcd00", "#ACBAB6", "#000000"]
+    },
+    {
+      "name": "wada-v2-132--3.png",
+      "numColors": 3,
+      "colors": ["#f6b3cb", "#f4eab2", "#ffe201"]
+    },
+    {
+      "name": "wada-v2-133--3.png",
+      "numColors": 3,
+      "colors": ["#b21345", "#ACBAB6", "#000000"]
+    },
+    {
+      "name": "wada-v2-134--3.png",
+      "numColors": 3,
+      "colors": ["#ec5081", "#f4eab2", "#1f889a"]
+    },
+    {
+      "name": "wada-v2-135--3.png",
+      "numColors": 3,
+      "colors": ["#bd2356", "#e7cb8c", "#acbab6"]
+    },
+    {
+      "name": "wada-v2-136--3.png",
+      "numColors": 3,
+      "colors": ["#b21345", "#ACBAB6", "#000000"]
+    },
+    {
+      "name": "wada-v2-137--3.png",
+      "numColors": 3,
+      "colors": ["#ec5081", "#f4eab2", "#1f889a"]
+    },
+    {
+      "name": "wada-v2-138--3.png",
+      "numColors": 3,
+      "colors": ["#bd2356", "#e7cb8c", "#ACBAB6"]
+    },
+    {
+      "name": "wada-v2-139--3.png",
+      "numColors": 3,
+      "colors": ["#c00a1b", "#f78300", "#25752A"]
+    },
+    {
+      "name": "wada-v2-141--3.png",
+      "numColors": 3,
+      "colors": ["#de1108", "#f6e220", "#463A7E"]
+    },
+    {
+      "name": "wada-v2-144--3.png",
+      "numColors": 3,
+      "colors": ["#FFFFFF", "#959A89", "#000000"]
+    },
+    {
+      "name": "wada-v2-145--3.png",
+      "numColors": 3,
+      "colors": ["#51255F", "#FFFFFF", "#000000"]
+    },
+    {
+      "name": "wada-v2-146--3.png",
+      "numColors": 3,
+      "colors": ["#bd2356", "#ACBAB6", "#000000"]
+    },
+    {
+      "name": "wada-v2-149--3.png",
+      "numColors": 3,
+      "colors": ["#EB3A10", "#959A89", "#313B46"]
+    },
+    {
+      "name": "wada-v2-160--3.png",
+      "numColors": 3,
+      "colors": ["#d3935f", "#ffffff", "#000000"]
+    },
+    {
+      "name": "wada-v2-163--3.png",
+      "numColors": 3,
+      "colors": ["#fa9d01", "#45173B", "#ffffff"]
+    },
+    {
+      "name": "summer-prints--3.png",
+      "numColors": 3,
+      "colors": ["#ffd100", "#91cdf3", "#dd3c23"]
+    },
+    {
+      "name": "wada-v2-203--3.png",
+      "numColors": 3,
+      "colors": ["#f26f2e", "#023c36", "#FFFFFF"]
+    },
+    {
+      "name": "wada-v2-177--3.png",
+      "numColors": 3,
+      "colors": ["#3A3E63", "#023c36", "#FFFFFF"]
+    },
+    {
+      "name": "wada-v2-178--3.png",
+      "numColors": 3,
+      "colors": ["#A01E25", "#DEA31C", "#FFFFFF"]
+    },
+    {
+      "name": "wada-v2-65--3.png",
+      "numColors": 3,
+      "colors": ["#c1392e", "#1B8450", "#484725"]
+    },
+    {
+      "name": "wada-v2-58--3.png",
+      "numColors": 3,
+      "colors": ["#5E3035", "#99c7cb", "#161A2B"]
+    },
+    {
+      "name": "wada-v2-191--3.png",
+      "numColors": 3,
+      "colors": ["#6DCAE5", "#ffffff", "#000000"]
+    },
+    {
+      "name": "wada-v2-95--3.png",
+      "numColors": 3,
+      "colors": ["#DE1108", "#FFFFFF", "#000000"]
+    },
+    {
+      "name": "wada-v2-208--3.png",
+      "numColors": 3,
+      "colors": ["#c71929", "#141E1F", "#f1f6e4"]
+    },
+    {
+      "name": "wada-v2-197--3.png",
+      "numColors": 3,
+      "colors": ["#FFCD00", "#ffffff", "#000000"]
+    },
+    {
+      "name": "wada-v2-40--3.png",
+      "numColors": 3,
+      "colors": ["#f4eab2", "#1da684", "#969B47"]
+    },
+    {
+      "name": "wada-v2-185--3.png",
+      "numColors": 3,
+      "colors": ["#f78300", "#89cc94", "#ffffff"]
+    },
+    {
+      "name": "wada-v2-52--3.png",
+      "numColors": 3,
+      "colors": ["#BB8E09", "#0F66AE", "#19213A"]
+    },
+    {
+      "name": "wada-v2-187--3.png",
+      "numColors": 3,
+      "colors": ["#d64a0b", "#204A6D", "#000000"]
+    },
+    {
+      "name": "wada-v2-189--3.png",
+      "numColors": 3,
+      "colors": ["#EF6249", "#98c7cb", "#000000"]
+    },
+    {
+      "name": "wada-v2-19--3.png",
+      "numColors": 3,
+      "colors": ["#E7CB8C", "#23407E", "#ACAAD5"]
+    },
+    {
+      "name": "wada-v2-73--3.png",
+      "numColors": 3,
+      "colors": ["#DEA31C", "#89ca94", "#000000"]
+    },
+    {
+      "name": "wada-v2-50--3.png",
+      "numColors": 3,
+      "colors": ["#B9BE7C", "#735C36", "#8C7741"]
+    },
+    {
+      "name": "wada-v2-74--3.png",
+      "numColors": 3,
+      "colors": ["#fab984", "#b7750b", "#0f66ae"]
+    },
+    {
+      "name": "wada-v2-173--3.png",
+      "numColors": 3,
+      "colors": ["#98c7cb", "#3A3E63", "#f1f6e4"]
+    },
+    {
+      "name": "wada-v2-174--3.png",
+      "numColors": 3,
+      "colors": ["#b21345", "#FFCD00", "#FFFFFF"]
+    },
+    {
+      "name": "wada-v2-75--3.png",
+      "numColors": 3,
+      "colors": ["#da2809", "#b7750b", "#000000"]
+    },
+    {
+      "name": "wada-v2-32--3.png",
+      "numColors": 3,
+      "colors": ["#b7750b", "#9ed6e1", "#19213A"]
+    },
+    {
+      "name": "wada-v2-61--3.png",
+      "numColors": 3,
+      "colors": ["#be510d", "#5D7267", "#161A2B"]
+    },
+    {
+      "name": "wada-v2-37--3.png",
+      "numColors": 3,
+      "colors": ["#0F5385", "#3A3E63", "#acbab6"]
+    },
+    {
+      "name": "wada-v2-56--3.png",
+      "numColors": 3,
+      "colors": ["#F07765", "#b65a0b", "#E7CB8C"]
+    },
+    {
+      "name": "wada-v2-28--3.png",
+      "numColors": 3,
+      "colors": ["#ca9a96", "#ed6185", "#5E3035"]
+    },
+    {
+      "name": "wada-v1-244--4.png",
+      "numColors": 4,
+      "colors": ["#da2809", "#ffeb98", "#bf9650", "#456368"]
+    },
+    {
+      "name": "wada-v1-245--4.png",
+      "numColors": 4,
+      "colors": ["#ed6185", "#a83a10", "#25752a", "#000000"]
+    },
+    {
+      "name": "wada-v1-246--4.png",
+      "numColors": 4,
+      "colors": ["#b65a0b", "#e7cb8c", "#5f612d", "#313b46"]
+    },
+    {
+      "name": "wada-v1-247--4.png",
+      "numColors": 4,
+      "colors": ["#aa817d", "#c3480d", "#5d7267", "#036687"]
+    },
+    {
+      "name": "wada-v1-248--4.png",
+      "numColors": 4,
+      "colors": ["#a01e25", "#73811a", "#192b40", "#313b46"]
+    },
+    {
+      "name": "wada-v1-249--4.png",
+      "numColors": 4,
+      "colors": ["#f5a5b1", "#A22E0F", "#f4eab2", "#f6b659"]
+    },
+    {
+      "name": "wada-v1-250--4.png",
+      "numColors": 4,
+      "colors": ["#b65a0b", "#FFCD00", "#00867C", "#233f7e"]
+    },
+    {
+      "name": "wada-v1-251--4.png",
+      "numColors": 4,
+      "colors": ["#ed6185", "#b7750b", "#acaaD5", "#6a3950"]
+    },
+    {
+      "name": "wada-v1-252--4.png",
+      "numColors": 4,
+      "colors": ["#6F251D", "#baa37d", "#d0a31c", "#456368"]
+    },
+    {
+      "name": "wada-v1-253--4.png",
+      "numColors": 4,
+      "colors": ["#c3a433", "#eb3a10", "#1da684", "#b5e5e0"]
+    },
+    {
+      "name": "wada-v1-254--4.png",
+      "numColors": 4,
+      "colors": ["#A41834", "#ffe201", "#25752a", "#313b46"]
+    },
+    {
+      "name": "wada-v1-255--4.png",
+      "numColors": 4,
+      "colors": ["#d23344", "#b65a0b", "#bb8e09", "#24878A"]
+    },
+    {
+      "name": "wada-v1-256--4.png",
+      "numColors": 4,
+      "colors": ["#F6E226", "#f26f2e", "#45173b", "#313b46"]
+    },
+    {
+      "name": "wada-v1-257--4.png",
+      "numColors": 4,
+      "colors": ["#f5a5b1", "#f4eab2", "#786D17", "#c1809e"]
+    },
+    {
+      "name": "wada-v1-258--4.png",
+      "numColors": 4,
+      "colors": ["#b65a0b", "#c3a433", "#6DCAC5", "#000000"]
+    },
+    {
+      "name": "wada-v1-259--4.png",
+      "numColors": 4,
+      "colors": ["#ec9475", "#f05301", "#1B8450", "#000000"]
+    },
+    {
+      "name": "wada-v1-260--4.png",
+      "numColors": 4,
+      "colors": ["#DE1108", "#fa9d01", "#0f66ae", "#96559d"]
+    },
+    {
+      "name": "wada-v1-261--4.png",
+      "numColors": 4,
+      "colors": ["#721B1B", "#eca463", "#786D17", "#036687"]
+    },
+    {
+      "name": "wada-v1-262--4.png",
+      "numColors": 4,
+      "colors": ["#f6e226", "#24878A", "#0F5385", "#959A89"]
+    },
+    {
+      "name": "wada-v1-263--4.png",
+      "numColors": 4,
+      "colors": ["#CD5066", "#ec9475", "#a8cab6", "#1da684"]
+    },
+    {
+      "name": "wada-v1-264--4.png",
+      "numColors": 4,
+      "colors": ["#A41834", "#ffeb98", "#6DCAC5", "#959A89"]
+    },
+    {
+      "name": "wada-v1-265--4.png",
+      "numColors": 4,
+      "colors": ["#d23344", "#e7cb8c", "#9b8411", "#3A672F"]
+    },
+    {
+      "name": "wada-v1-266--4.png",
+      "numColors": 4,
+      "colors": ["#a83a10", "#eca463", "#abddd8", "#313b46"]
+    },
+    {
+      "name": "wada-v1-267--4.png",
+      "numColors": 4,
+      "colors": ["#f5a5b1", "#da2809", "#ABBC97", "#1e889a"]
+    },
+    {
+      "name": "wada-v1-268--4.png",
+      "numColors": 4,
+      "colors": ["#CD5066", "#FFCD00", "#9A953A", "#19213A"]
+    },
+    {
+      "name": "wada-v1-269--4.png",
+      "numColors": 4,
+      "colors": ["#de1108", "#e7cb8c", "#687745", "#00867C"]
+    },
+    {
+      "name": "wada-v1-270--4.png",
+      "numColors": 4,
+      "colors": ["#FAAD43", "#f78300", "#00867C", "#0f66ae"]
+    },
+    {
+      "name": "wada-v1-271--4.png",
+      "numColors": 4,
+      "colors": ["#aa817d", "#b65a0b", "#22241d", "#b5e5e0"]
+    },
+    {
+      "name": "wada-v1-273--4.png",
+      "numColors": 4,
+      "colors": ["#d23344", "#f4eab2", "#5F612D", "#3A672F"]
+    },
+    {
+      "name": "wada-v1-274--4.png",
+      "numColors": 4,
+      "colors": ["#b21345", "#89c8c8", "#24878A", "#141E1F"]
+    },
+    {
+      "name": "wada-v1-275--4.png",
+      "numColors": 4,
+      "colors": ["#ffeb98", "#f05301", "#abddd8", "#8ba6c3"]
+    },
+    {
+      "name": "wada-v1-276--4.png",
+      "numColors": 4,
+      "colors": ["#f6b3cb", "#72122e", "#98513a", "#acbaba"]
+    },
+    {
+      "name": "wada-v1-277--4.png",
+      "numColors": 4,
+      "colors": ["#eb3a10", "#7e7240", "#4A79AE", "#8c61a4"]
+    },
+    {
+      "name": "wada-v1-278--4.png",
+      "numColors": 4,
+      "colors": ["#c1392e", "#baa37d", "#6c2113", "#682d44"]
+    },
+    {
+      "name": "wada-v1-279--4.png",
+      "numColors": 4,
+      "colors": ["#ed6185", "#fbcbb0", "#a1ca4d", "#000000"]
+    },
+    {
+      "name": "wada-v1-280--4.png",
+      "numColors": 4,
+      "colors": ["#d23344", "#484725", "#c1809e", "#682d44"]
+    },
+    {
+      "name": "wada-v1-281--4.png",
+      "numColors": 4,
+      "colors": ["#ffeb98", "#00867C", "#89cc94", "#036687"]
+    },
+    {
+      "name": "wada-v1-282--4.png",
+      "numColors": 4,
+      "colors": ["#d23344", "#bf8d4d", "#89cc94", "#ae72a9"]
+    },
+    {
+      "name": "wada-v1-286--4.png",
+      "numColors": 4,
+      "colors": ["#A13C35", "#721B1B", "#618656", "#58C0AE"]
+    },
+    {
+      "name": "wada-v1-287--4.png",
+      "numColors": 4,
+      "colors": ["#de4342", "#ffcd00", "#1da684", "#023c36"]
+    },
+    {
+      "name": "wada-v1-288--4.png",
+      "numColors": 4,
+      "colors": ["#aa817d", "#a83a10", "#eb3a10", "#abddd8"]
+    },
+    {
+      "name": "wada-v1-289--4.png",
+      "numColors": 4,
+      "colors": ["#A13C35", "#721B1B", "#618656", "#58C0AE"]
+    },
+    {
+      "name": "wada-v1-290--4.png",
+      "numColors": 4,
+      "colors": ["#de4342", "#ffcd00", "#1da684", "#023c36"]
+    },
+    {
+      "name": "wada-v1-291--4.png",
+      "numColors": 4,
+      "colors": ["#aa817d", "#a83a10", "#eb3a10", "#abddd8"]
+    },
+    {
+      "name": "wada-v1-292--4.png",
+      "numColors": 4,
+      "colors": ["#a83a10", "#fa9d01", "#00868E", "#3A3E63"]
+    },
+    {
+      "name": "wada-v1-293--4.png",
+      "numColors": 4,
+      "colors": ["#ed6185", "#c3a433", "#9ed6e1", "#6DCAC5"]
+    },
+    {
+      "name": "wada-v1-294--4.png",
+      "numColors": 4,
+      "colors": ["#f78300", "#593A14", "#683144", "#000000"]
+    },
+    {
+      "name": "wada-v1-295--4.png",
+      "numColors": 4,
+      "colors": ["#f6e226", "#bcc62c", "#3A3E63", "#19213A"]
+    },
+    {
+      "name": "wada-v1-296--4.png",
+      "numColors": 4,
+      "colors": ["#5E3035", "#ffeb98", "#484725", "#89cc94"]
+    },
+    {
+      "name": "wada-v1-297--4.png",
+      "numColors": 4,
+      "colors": ["#bcc62c", "#1da684", "#89cc94", "#6DCAC5"]
+    },
+    {
+      "name": "wada-v1-299--4.png",
+      "numColors": 4,
+      "colors": ["#b65a0b", "#abddd8", "#5F887F", "#408D56"]
+    },
+    {
+      "name": "wada-v1-300--4.png",
+      "numColors": 4,
+      "colors": ["#f4eab2", "#FAAD43", "#3A672F", "#8ba6c3"]
+    },
+    {
+      "name": "wada-v1-301--4.png",
+      "numColors": 4,
+      "colors": ["#faad43", "#ffe201", "#0f66ae", "#19213A"]
+    },
+    {
+      "name": "wada-v1-303--4.png",
+      "numColors": 4,
+      "colors": ["#a83a10", "#f78300", "#5F612D", "#3A3E63"]
+    },
+    {
+      "name": "wada-v1-304--4.png",
+      "numColors": 4,
+      "colors": ["#b65a0b", "#f6e226", "#eb3a10", "#000000"]
+    },
+    {
+      "name": "wada-v1-305--4.png",
+      "numColors": 4,
+      "colors": ["#bd2356", "#ec9475", "#73811A", "#036687"]
+    },
+    {
+      "name": "wada-v1-306--4.png",
+      "numColors": 4,
+      "colors": ["#EF6249", "#faad43", "#abddd8", "#6DCAc5"]
+    },
+    {
+      "name": "wada-v1-307--4.png",
+      "numColors": 4,
+      "colors": ["#de1108", "#e7cb8c", "#687745", "#96559D"]
+    },
+    {
+      "name": "wada-v1-308--4.png",
+      "numColors": 4,
+      "colors": ["#faad43", "#baa37d", "#b5e5e0", "#036687"]
+    },
+    {
+      "name": "wada-v1-309--4.png",
+      "numColors": 4,
+      "colors": ["#fae087", "#eb3a10", "#22241d", "#acbab6"]
+    },
+    {
+      "name": "wada-v1-310--4.png",
+      "numColors": 4,
+      "colors": ["#6F251D", "#faad43", "#7E7240", "#00867C"]
+    },
+    {
+      "name": "wada-v1-311--4.png",
+      "numColors": 4,
+      "colors": ["#ECA463", "#ffcd00", "#a7a819", "#abddd8"]
+    },
+    {
+      "name": "wada-v1-312--4.png",
+      "numColors": 4,
+      "colors": ["#f6e226", "#00867C", "#1b8450", "#b5e5e0"]
+    },
+    {
+      "name": "wada-v1-313--4.png",
+      "numColors": 4,
+      "colors": ["#c00a1b", "#acbab6", "#96559D", "#45173b"]
+    },
+    {
+      "name": "wada-v1-314--4.png",
+      "numColors": 4,
+      "colors": ["#caa496", "#c71929", "#d64a0b", "#89cc94"]
+    },
+    {
+      "name": "wada-v1-315--4.png",
+      "numColors": 4,
+      "colors": ["#f28c33", "#f26f2e", "#3A3E63", "#204A6D"]
+    },
+    {
+      "name": "wada-v1-316--4.png",
+      "numColors": 4,
+      "colors": ["#f4eab2", "#eca463", "#786D17", "#22241d"]
+    },
+    {
+      "name": "wada-v1-317--4.png",
+      "numColors": 4,
+      "colors": ["#A21726", "#faad43", "#abbc97", "#bcc62c"]
+    },
+    {
+      "name": "wada-v1-318--4.png",
+      "numColors": 4,
+      "colors": ["#a83a10", "#f78300", "#5F887F", "#0f5385"]
+    },
+    {
+      "name": "wada-v1-319--4.png",
+      "numColors": 4,
+      "colors": ["#c00a1b", "#ffe201", "#25752A", "#000000"]
+    },
+    {
+      "name": "wada-v1-320--4.png",
+      "numColors": 4,
+      "colors": ["#ed6185", "#6F251D", "#23647E", "#482045"]
+    },
+    {
+      "name": "wada-v1-321--4.png",
+      "numColors": 4,
+      "colors": ["#EF6249", "#f4eab2", "#f28c33", "#b53e88"]
+    },
+    {
+      "name": "wada-v1-322--4.png",
+      "numColors": 4,
+      "colors": ["#791B17", "#1b8450", "#463A7E", "#51255F"]
+    },
+    {
+      "name": "wada-v1-323--4.png",
+      "numColors": 4,
+      "colors": ["#fab984", "#baa37d", "#f6e226", "#abddd8"]
+    },
+    {
+      "name": "wada-v1-324--4.png",
+      "numColors": 4,
+      "colors": ["#735C36", "#333e2b", "#023c36", "#141F1F"]
+    },
+    {
+      "name": "wada-v1-325--4.png",
+      "numColors": 4,
+      "colors": ["#b65a0b", "#ffcd00", "#f78300", "#3a672f"]
+    },
+    {
+      "name": "wada-v1-326--4.png",
+      "numColors": 4,
+      "colors": ["#f1736c", "#f4eab2", "#737f1a", "#98c7cb"]
+    },
+    {
+      "name": "wada-v1-328--4.png",
+      "numColors": 4,
+      "colors": ["#de1108", "#a22e0f", "#b53e88", "#544395"]
+    },
+    {
+      "name": "wada-v1-329--4.png",
+      "numColors": 4,
+      "colors": ["#fbb65d", "#a7a819", "#6c2113", "#000000"]
+    },
+    {
+      "name": "wada-v1-330--4.png",
+      "numColors": 4,
+      "colors": ["#A21726", "#4A79AE", "#96559D", "#acbaba"]
+    },
+    {
+      "name": "wada-v1-331--4.png",
+      "numColors": 4,
+      "colors": ["#d23344", "#fae087", "#DEA31C", "#141F1F"]
+    },
+    {
+      "name": "wada-v1-332--4.png",
+      "numColors": 4,
+      "colors": ["#f4eab2", "#eb3a10", "#a1ca4d", "#78b315"]
+    },
+    {
+      "name": "wada-v1-333--4.png",
+      "numColors": 4,
+      "colors": ["#ed6185", "#b65a0b", "#baa37d", "#bba0a8"]
+    },
+    {
+      "name": "wada-v1-334--4.png",
+      "numColors": 4,
+      "colors": ["#A21726", "#f26f2e", "#412716", "#1C857C"]
+    },
+    {
+      "name": "wada-v1-335--4.png",
+      "numColors": 4,
+      "colors": ["#faad43", "#b79ea8", "#45173b", "#313b46"]
+    },
+    {
+      "name": "wada-v1-336--4.png",
+      "numColors": 4,
+      "colors": ["#b9be7c", "#b5e5e0", "#8ba6c3", "#24878A"]
+    },
+    {
+      "name": "wada-v1-337--4.png",
+      "numColors": 4,
+      "colors": ["#bd2356", "#19213A", "#8c61a4", "#463A7E"]
+    },
+    {
+      "name": "wada-v1-339--4.png",
+      "numColors": 4,
+      "colors": ["#a83a10", "#f6e226", "#89cc94", "#0f66ae"]
+    },
+    {
+      "name": "wada-v1-340--4.png",
+      "numColors": 4,
+      "colors": ["#fbcbb0", "#786D17", "#a1ca4d", "#036687"]
+    },
+    {
+      "name": "wada-v1-345--4.png",
+      "numColors": 4,
+      "colors": ["#d3935f", "#D64A0B", "#98c7cb", "#3A3E63"]
+    },
+    {
+      "name": "wada-v1-346--4.png",
+      "numColors": 4,
+      "colors": ["#eb3a10", "#1da684", "#ACBAB6", "#000000"]
+    },
+    {
+      "name": "wada-v1-347--4.png",
+      "numColors": 4,
+      "colors": ["#ef6249", "#3a672f", "#22241d", "#98c7cb"]
+    },
+    {
+      "name": "wada-v1-349--4.png",
+      "numColors": 4,
+      "colors": ["#a83a10", "#e7cb8c", "#55492a", "#204A6D"]
+    },
+    {
+      "name": "wada-v1-350--4.png",
+      "numColors": 4,
+      "colors": ["#fbb65d", "#23407E", "#96559D", "#000000"]
+    },
+    {
+      "name": "wada-v1-351--4.png",
+      "numColors": 4,
+      "colors": ["#6F251D", "#b5e5e0", "#58c0ae", "#544395"]
+    },
+    {
+      "name": "wada-v1-352--4.png",
+      "numColors": 4,
+      "colors": ["#af2a65", "#abddd8", "#bcc62c", "#5d7267"]
+    },
+    {
+      "name": "wada-v1-353--4.png",
+      "numColors": 4,
+      "colors": ["#9a953a", "#1da684", "#0f5385", "#ae72a9"]
+    },
+    {
+      "name": "wada-v1-354--4.png",
+      "numColors": 4,
+      "colors": ["#b9be7c", "#3a672f", "#22241d", "#45273b"]
+    },
+    {
+      "name": "wada-v2-100--4.png",
+      "numColors": 4,
+      "colors": ["#da2809", "#baa37d", "#fa9d01", "#036687"]
+    },
+    {
+      "name": "wada-v2-105--4.png",
+      "numColors": 4,
+      "colors": ["#fae087", "#8ba6c3", "#4A79AE", "#FFFFFF"]
+    },
+    {
+      "name": "wada-v2-107--4.png",
+      "numColors": 4,
+      "colors": ["#ffcd00", "#408D56", "#6E3347", "#FFFFFF"]
+    },
+    {
+      "name": "wada-v2-114--4.png",
+      "numColors": 4,
+      "colors": ["#da2809", "#e7cb8c", "#bf8d4d", "#3A3E63"]
+    },
+    {
+      "name": "wada-v2-116--4.png",
+      "numColors": 4,
+      "colors": ["#fae087", "#1C857C", "#acbab6", "#000000"]
+    },
+    {
+      "name": "wada-v2-120--4.png",
+      "numColors": 4,
+      "colors": ["#ffe201", "#036687", "#6E3347", "#acbab6"]
+    },
+    {
+      "name": "wada-v2-124--4.png",
+      "numColors": 4,
+      "colors": ["#b21345", "#a1ca4d", "#6DCAE5", "#000000"]
+    },
+    {
+      "name": "wada-v2-128--4.png",
+      "numColors": 4,
+      "colors": ["#da2809", "#558368", "#4A79AE", "#000000"]
+    },
+    {
+      "name": "wada-v2-140--4.png",
+      "numColors": 4,
+      "colors": ["#de1108", "#e7cb8c", "#1B8450", "#FFFFFF"]
+    },
+    {
+      "name": "wada-v2-142--4.png",
+      "numColors": 4,
+      "colors": ["#ffe201", "#1E889A", "#FFFFFF", "#000000"]
+    },
+    {
+      "name": "wada-v2-147--4.png",
+      "numColors": 4,
+      "colors": ["#e7cb8c", "#24878A", "#FFFFFF", "#000000"]
+    },
+    {
+      "name": "wada-v2-152--4.png",
+      "numColors": 4,
+      "colors": ["#de1108", "#ffffff", "#ACBAB6", "#000000"]
+    },
+    {
+      "name": "wada-v2-158--4.png",
+      "numColors": 4,
+      "colors": ["#c3a433", "#8D5B18", "#204A6D", "#6E3347"]
+    },
+    {
+      "name": "wada-v2-162--4.png",
+      "numColors": 4,
+      "colors": ["#de1108", "#fbcbb0", "#b79ea8", "#544395"]
+    },
+    {
+      "name": "wada-v2-164--4.png",
+      "numColors": 4,
+      "colors": ["#c71929", "#558368", "#FFFFFF", "#313B46"]
+    },
+    {
+      "name": "wada-v2-165--4.png",
+      "numColors": 4,
+      "colors": ["#f1736d", "#ffeb98", "#333e2b", "#58C0AE"]
+    },
+    {
+      "name": "wada-v2-169--4.png",
+      "numColors": 4,
+      "colors": ["#ffe201", "#f26f2e", "#24878A", "#456368"]
+    },
+    {
+      "name": "wada-v2-171--5.png",
+      "numColors": 4,
+      "colors": ["#bb8e09", "#412716", "#24878A", "#FFFFFF"]
+    },
+    {
+      "name": "wada-v2-80--4.png",
+      "numColors": 4,
+      "colors": ["#ED6185", "#f05301", "#1C857C", "#6DCAC5"]
+    },
+    {
+      "name": "wada-v2-41--4.png",
+      "numColors": 4,
+      "colors": ["#593A14", "#89CA94", "#00848E", "#ffffff"]
+    },
+    {
+      "name": "wada-v2-34--4.png",
+      "numColors": 4,
+      "colors": ["#5E3035", "#fbcbb0", "#412716", "#78B315"]
+    },
+    {
+      "name": "wada-v2-188--4.png",
+      "numColors": 4,
+      "colors": ["#de1108", "#dea31c", "#25752A", "#000000"]
+    },
+    {
+      "name": "wada-v2-42--4.png",
+      "numColors": 4,
+      "colors": ["#faad43", "#f05301", "#737f1a", "#484725"]
+    },
+    {
+      "name": "wada-v2-43--4.png",
+      "numColors": 4,
+      "colors": ["#E7CB8C", "#78B315", "#c1819e", "#f4dadf"]
+    },
+    {
+      "name": "wada-v2-44--4.png",
+      "numColors": 4,
+      "colors": ["#98c7cb", "#204A6D", "#97A9A1", "#eee3ad"]
+    },
+    {
+      "name": "wada-v2-45--4.png",
+      "numColors": 4,
+      "colors": ["#AF2A65", "#fbb65d", "#00848E", "#47453D"]
+    },
+    {
+      "name": "wada-v2-48--4.png",
+      "numColors": 4,
+      "colors": ["#f5a5b1", "#204A6D", "#ffffff", "#acbab6"]
+    },
+    {
+      "name": "wada-v2-49--4.png",
+      "numColors": 4,
+      "colors": ["#f6b3cb", "#A73041", "#45173b", "#BCAFA2"]
+    },
+    {
+      "name": "wada-v2-25--4.png",
+      "numColors": 4,
+      "colors": ["#ed6185", "#fbcbb0", "#4A79AE", "#764349"]
+    },
+    {
+      "name": "wada-v2-180--4.png",
+      "numColors": 4,
+      "colors": ["#a83a10", "#bcc62c", "#1c857c", "#3A3E63"]
+    },
+    {
+      "name": "wada-v2-181--4.png",
+      "numColors": 4,
+      "colors": ["#a83a10", "#f05301", "#f4dadf", "#47393D"]
+    },
+    {
+      "name": "wada-v2-182--4.png",
+      "numColors": 4,
+      "colors": ["#f1736d", "#8D5B18", "#192B40", "#FFFFFF"]
+    },
+    {
+      "name": "wada-v2-26--4.png",
+      "numColors": 4,
+      "colors": ["#f4eab2", "#fbb65d", "#c3a433", "#482045"]
+    },
+    {
+      "name": "wada-v2-201--4.png",
+      "numColors": 4,
+      "colors": ["#f05301", "#6C2113", "#737F1A", "#ffffff"]
+    },
+    {
+      "name": "wada-v2-184--4.png",
+      "numColors": 4,
+      "colors": ["#c00a1b", "#fa9d01", "#FFFFFF", "#000000"]
+    },
+    {
+      "name": "wada-v2-202--4.png",
+      "numColors": 4,
+      "colors": ["#d64a0b", "#3A3E63", "#FFFFFF", "#000000"]
+    },
+    {
+      "name": "wada-v2-227--4.png",
+      "numColors": 4,
+      "colors": ["#FFCD00", "#408D56", "#ffffff", "#97A9A1"]
+    },
+    {
+      "name": "wada-v2-57--4.png",
+      "numColors": 4,
+      "colors": ["#da2809", "#8D5B18", "#735C36", "#222421"]
+    },
+    {
+      "name": "wada-v2-53--4.png",
+      "numColors": 4,
+      "colors": ["#de1108", "#A1CA4D", "#3A672F", "#023c36"]
+    },
+    {
+      "name": "wada-v2-54--4.png",
+      "numColors": 4,
+      "colors": ["#aa8181", "#ffeb97", "#8C7741", "#99c7cb"]
+    },
+    {
+      "name": "wada-v2-59--4.png",
+      "numColors": 4,
+      "colors": ["#fab984", "#a7a819", "#592710", "#a8cab6"]
+    },
+    {
+      "name": "wada-v2-22--4.png",
+      "numColors": 4,
+      "colors": ["#fbb65d", "#408D56", "#89cc94", "#c1759e"]
+    },
+    {
+      "name": "wada-v2-194--4.png",
+      "numColors": 4,
+      "colors": ["#DE4342", "#ACAAD5", "#FFFFFF", "#000000"]
+    },
+    {
+      "name": "wada-v2-195--4.png",
+      "numColors": 4,
+      "colors": ["#ec5081", "#DEA31C", "#ffffff", "#ACBAB6"]
+    },
+    {
+      "name": "wada-v2-51--4.png",
+      "numColors": 4,
+      "colors": ["#abddbe", "#558368", "#023c36", "#FFFFFF"]
+    },
+    {
+      "name": "wada-v2-67--4.png",
+      "numColors": 4,
+      "colors": ["#DEA31C", "#be510d", "#5F8880", "#19213A"]
+    },
+    {
+      "name": "wada-v2-70--4.png",
+      "numColors": 4,
+      "colors": ["#BB8E09", "#3A672F", "#19213A", "#b9c785"]
+    },
+    {
+      "name": "wada-v2-38--4.png",
+      "numColors": 4,
+      "colors": ["#ed6185", "#de1108", "#161A2B", "#FFFFFF"]
+    },
+    {
+      "name": "gnarly-neon--4.png",
+      "numColors": 4,
+      "colors": ["#0EFD5C", "#11a1fe", "#f912a1", "#b120fc"]
+    },
+    {
+      "name": "wada-v2-62--4.png",
+      "numColors": 4,
+      "colors": ["#dda7ac", "#acaad5", "#ae72a9", "#482044"]
+    },
+    {
+      "name": "wada-v2-85--4.png",
+      "numColors": 4,
+      "colors": ["#f5a5b1", "#ffeb97", "#abddbe", "#000000"]
+    },
+    {
+      "name": "wada-v2-86--4.png",
+      "numColors": 4,
+      "colors": ["#baa37d", "#a8cab6", "#0f5385", "#8C7741"]
+    },
+    {
+      "name": "80s-glamo--4.png",
+      "numColors": 4,
+      "colors": ["#8DE8E9", "#f4217f", "#e4f732", "#7320a6"]
+    },
+    {
+      "name": "wada-v2-204--4.png",
+      "numColors": 4,
+      "colors": ["#faad43", "#1b8450", "#ffffff", "#000000"]
+    },
+    {
+      "name": "wada-v2-205--4.png",
+      "numColors": 4,
+      "colors": ["#d3935f", "#58C0AE", "#000000", "#f1f6e4"]
+    },
+    {
+      "name": "wada-v2-206--4.png",
+      "numColors": 4,
+      "colors": ["#f6b3cb", "#aa8181", "#bd2356", "#412716"]
+    },
+    {
+      "name": "wada-v2-217--4.png",
+      "numColors": 4,
+      "colors": ["#f1736d", "#fae087", "#9ed6e1", "#161A2B"]
+    },
+    {
+      "name": "arcade-blaster--4.png",
+      "numColors": 4,
+      "colors": ["#EF3134", "#30C9F0", "#b643f0", "#fbf053"]
+    },
+    {
+      "name": "wada-v2-96--4.png",
+      "numColors": 4,
+      "colors": ["#E83402", "#ec9475", "#fa9d01", "#408D56"]
+    },
+    {
+      "name": "wada-v2-97--4.png",
+      "numColors": 4,
+      "colors": ["#da2809", "#fae087", "#d3935f", "#482B80"]
+    },
+    {
+      "name": "wada-v2-98--4.png",
+      "numColors": 4,
+      "colors": ["#ECA463", "#fa9d01", "#8C7741", "#49A8A6"]
+    },
+    {
+      "name": "wada-v2-31--4.png",
+      "numColors": 4,
+      "colors": ["#f05301", "#5F8880", "#9ed6e1", "#141E1F"]
+    },
+    {
+      "name": "wada-v2-94--4.png",
+      "numColors": 4,
+      "colors": ["#f5a5b1", "#cd5066", "#f26f2e", "#eee3ad"]
+    },
+    {
+      "name": "wada-v2-91--4.png",
+      "numColors": 4,
+      "colors": ["#faad43", "#8C7741", "#456378", "#FFFFFF"]
+    },
+    {
+      "name": "wada-v2-64--4.png",
+      "numColors": 4,
+      "colors": ["#da2809", "#E7CB8C", "#456378", "#000000"]
+    },
+    {
+      "name": "abnormal--5.png",
+      "numColors": 5,
+      "colors": ["#DA415E", "#1f69b3", "#d9d8d7", "#db3227", "#da7370"]
+    },
+    {
+      "name": "adventure-time--5.png",
+      "numColors": 5,
+      "colors": ["#fdba1d", "#1899cc", "#50a747", "#b996c6", "#e36fab"]
+    },
+    {
+      "name": "aerial--5.png",
+      "numColors": 5,
+      "colors": ["#ed135d", "#3d91ce", "#f0e415", "#f3b817", "#f15d22"]
+    },
+    {
+      "name": "animated--5.png",
+      "numColors": 5,
+      "colors": ["#f5f6f7", "#c0bfbf", "#8d8e8d", "#414141", "#0c0c0c"]
+    },
+    {
+      "name": "anime--5.png",
+      "numColors": 5,
+      "colors": ["#ed1b33", "#a82c6d", "#da96c2", "#9edbf2", "#ed1c24"]
+    },
+    {
+      "name": "anno--5.png",
+      "numColors": 5,
+      "colors": ["#7f489c", "#151041", "#f37348", "#ef4c75", "#6bcbd9"]
+    },
+    {
+      "name": "anything--5.png",
+      "numColors": 5,
+      "colors": ["#451f59", "#4486c7", "#f3ba17", "#591c0f", "#ef4c4b"]
+    },
+    {
+      "name": "ascension--5.png",
+      "numColors": 5,
+      "colors": ["#a61d35", "#ef5e95", "#2dacd1", "#398e42", "#f27921"]
+    },
+    {
+      "name": "attic--5.png",
+      "numColors": 5,
+      "colors": ["#da535f", "#3c59a8", "#2b744d", "#d9ab27", "#c02d26"]
+    },
+    {
+      "name": "battle--5.png",
+      "numColors": 5,
+      "colors": ["#a63047", "#87c0a1", "#f1e17d", "#f3ab25", "#db663b"]
+    },
+    {
+      "name": "bigups--5.png",
+      "numColors": 5,
+      "colors": ["#f27faa", "#2dacd1", "#f2cc10", "#f39545", "#ee3223"]
+    },
+    {
+      "name": "blender--5.png",
+      "numColors": 5,
+      "colors": ["#584ca0", "#54bf9e", "#f0e835", "#ef4723", "#f5f6f7"]
+    },
+    {
+      "name": "blink--5.png",
+      "numColors": 5,
+      "colors": ["#f3745f", "#f7f057", "#51c9eb", "#ed2024", "#ef4a75"]
+    },
+    {
+      "name": "bloat--5.png",
+      "numColors": 5,
+      "colors": ["#f05fa3", "#f9ab19", "#f28820", "#b8d436", "#4cc7e5"]
+    },
+    {
+      "name": "bloodline--5.png",
+      "numColors": 5,
+      "colors": ["#3ba69c", "#f3c949", "#da9659", "#550d0e", "#db4343"]
+    },
+    {
+      "name": "bloop--5.png",
+      "numColors": 5,
+      "colors": ["#ed1f55", "#f99f1b", "#f9d609", "#a7c038", "#17aab5"]
+    },
+    {
+      "name": "bluesy--5.png",
+      "numColors": 5,
+      "colors": ["#3e5aa8", "#3c6fb6", "#41b4e7", "#59c7d3", "#70c6a6"]
+    },
+    {
+      "name": "bmo--5.png",
+      "numColors": 5,
+      "colors": ["#ed2127", "#c5e3c0", "#7493af", "#fcaf22", "#958834"]
+    },
+    {
+      "name": "bonbon--5.png",
+      "numColors": 5,
+      "colors": ["#f1658b", "#12aebc", "#4cb95f", "#f39a2f", "#ee3034"]
+    },
+    {
+      "name": "bots--5.png",
+      "numColors": 5,
+      "colors": ["#1179a8", "#25a778", "#8ac64c", "#9ad16d", "#db4343"]
+    },
+    {
+      "name": "buggy--5.png",
+      "numColors": 5,
+      "colors": ["#da2a4c", "#85c440", "#fffef9", "#1c99d5", "#f57c20"]
+    },
+    {
+      "name": "camera--5.png",
+      "numColors": 5,
+      "colors": ["#364e8f", "#71c48f", "#d9aa27", "#db6c2a", "#a63939"]
+    },
+    {
+      "name": "cards--5.png",
+      "numColors": 5,
+      "colors": ["#da3b77", "#8d2a61", "#f0ea5a", "#f27072", "#f5f6f7"]
+    },
+    {
+      "name": "carto--5.png",
+      "numColors": 5,
+      "colors": ["#7e59a8", "#f0ea51", "#f3b817", "#f15a24", "#a75252"]
+    },
+    {
+      "name": "centaur--5.png",
+      "numColors": 5,
+      "colors": ["#0d4d74", "#2e95d2", "#06261f", "#f4ae84", "#f15f52"]
+    },
+    {
+      "name": "cheshire--5.png",
+      "numColors": 5,
+      "colors": ["#8bd4e2", "#97509f", "#bd5ba3", "#ed1568", "#cd2027"]
+    },
+    {
+      "name": "classic--5.png",
+      "numColors": 5,
+      "colors": ["#2daf66", "#62c194", "#9bcd63", "#6c9bd2", "#a1a395"]
+    },
+    {
+      "name": "clean--5.png",
+      "numColors": 5,
+      "colors": ["#65cad9", "#a7ce38", "#e9d527", "#d1108a", "#f57d20"]
+    },
+    {
+      "name": "cling--5.png",
+      "numColors": 5,
+      "colors": ["#4864af", "#58b0e2", "#b3e2ec", "#f3a81b", "#ee2a2c"]
+    },
+    {
+      "name": "coasters--5.png",
+      "numColors": 5,
+      "colors": ["#c03779", "#f062a7", "#f4acd1", "#48a69d", "#92d1b2"]
+    },
+    {
+      "name": "colon--5.png",
+      "numColors": 5,
+      "colors": ["#9ea790", "#e7e61e", "#c0b649", "#a77244", "#745f4d"]
+    },
+    {
+      "name": "compy--5.png",
+      "numColors": 5,
+      "colors": ["#fbe219", "#e88a23", "#ef4129", "#b54b9c", "#4c54a4"]
+    },
+    {
+      "name": "condor--5.png",
+      "numColors": 5,
+      "colors": ["#c11f4c", "#8c194a", "#59184a", "#f4b88d", "#ef4034"]
+    },
+    {
+      "name": "corral--5.png",
+      "numColors": 5,
+      "colors": ["#ef4a75", "#1a8079", "#2fb3b3", "#8ad4eb", "#748181"]
+    },
+    {
+      "name": "create--5.png",
+      "numColors": 5,
+      "colors": ["#644da0", "#e80976", "#f05523", "#4588c8", "#6abd45"]
+    },
+    {
+      "name": "crema--5.png",
+      "numColors": 5,
+      "colors": ["#5e859a", "#2f95ce", "#77cbbe", "#f58776", "#cd2128"]
+    },
+    {
+      "name": "cute--5.png",
+      "numColors": 5,
+      "colors": ["#ed135d", "#c84699", "#16bbab", "#f3a01d", "#f4cac3"]
+    },
+    {
+      "name": "cyber--5.png",
+      "numColors": 5,
+      "colors": ["#f9f5f9", "#ec2a94", "#9ecc42", "#90889a", "#040707"]
+    },
+    {
+      "name": "dandy--5.png",
+      "numColors": 5,
+      "colors": ["#c0202a", "#73191a", "#4dc6e1", "#6f7430", "#ed2724"]
+    },
+    {
+      "name": "daring--5.png",
+      "numColors": 5,
+      "colors": ["#2f2c40", "#f3c094", "#f15925", "#db3829", "#a63429"]
+    },
+    {
+      "name": "desktop--5.png",
+      "numColors": 5,
+      "colors": ["#eb79b0", "#7dd1e0", "#b6d76c", "#f4a23f", "#ee2a2c"]
+    },
+    {
+      "name": "digerati--5.png",
+      "numColors": 5,
+      "colors": ["#52666b", "#ef3e78", "#cbdb2a", "#ffffff", "#b8b89f"]
+    },
+    {
+      "name": "disco--5.png",
+      "numColors": 5,
+      "colors": ["#c12b54", "#1da6a6", "#d3db2e", "#f3f0d2", "#a65f27"]
+    },
+    {
+      "name": "doomsday--5.png",
+      "numColors": 5,
+      "colors": ["#0b261e", "#6dc388", "#f4e0bb", "#f15d22", "#251313"]
+    },
+    {
+      "name": "eclectic--5.png",
+      "numColors": 5,
+      "colors": ["#e72492", "#e68cba", "#f4e0ec", "#77c03f", "#c1dbaa"]
+    },
+    {
+      "name": "fandom--5.png",
+      "numColors": 5,
+      "colors": ["#433d77", "#ef3878", "#ffd049", "#45c6f3", "#fef8fb"]
+    },
+    {
+      "name": "fashion--5.png",
+      "numColors": 5,
+      "colors": ["#f395b5", "#c7539d", "#627cbd", "#b8d657", "#f0ed8d"]
+    },
+    {
+      "name": "film--5.png",
+      "numColors": 5,
+      "colors": ["#ed2132", "#8988c0", "#bee0f4", "#dce793", "#f2c435"]
+    },
+    {
+      "name": "flip--5.png",
+      "numColors": 5,
+      "colors": ["#eac73f", "#f5f6f7", "#c0c0c0", "#daa427", "#000000"]
+    },
+    {
+      "name": "flowers--5.png",
+      "numColors": 5,
+      "colors": ["#ef4350", "#f37144", "#a75132", "#f3d0c3", "#f28278"]
+    },
+    {
+      "name": "food--5.png",
+      "numColors": 5,
+      "colors": ["#bcd63a", "#167c3f", "#eb2d28", "#f39e78", "#f6ed67"]
+    },
+    {
+      "name": "fresher--5.png",
+      "numColors": 5,
+      "colors": ["#ed145b", "#00abcd", "#ffffff", "#524b48", "#000000"]
+    },
+    {
+      "name": "fruit-punch--5.png",
+      "numColors": 5,
+      "colors": ["#126152", "#44813e", "#b3d067", "#faee5b", "#f15b3b"]
+    },
+    {
+      "name": "fuji--5.png",
+      "numColors": 5,
+      "colors": ["#c11f3b", "#66a9dc", "#f1dd67", "#f3a748", "#550d0e"]
+    },
+    {
+      "name": "future--5.png",
+      "numColors": 5,
+      "colors": ["#8d9090", "#169b9d", "#e3e5e5", "#303133", "#f9b515"]
+    },
+    {
+      "name": "geek--5.png",
+      "numColors": 5,
+      "colors": ["#211c57", "#5b5daa", "#3b9cd6", "#6dcf88", "#efc03f"]
+    },
+    {
+      "name": "general--5.png",
+      "numColors": 5,
+      "colors": ["#d5e6a3", "#e9b33b", "#ef4939", "#845ea8", "#67ccf5"]
+    },
+    {
+      "name": "gin--5.png",
+      "numColors": 5,
+      "colors": ["#f19b1f", "#e31c5f", "#4b4a9d", "#11b8a2", "#76c041"]
+    },
+    {
+      "name": "girltown--5.png",
+      "numColors": 5,
+      "colors": ["#86c371", "#d1de62", "#d11e7f", "#6d3466", "#5f6b88"]
+    },
+    {
+      "name": "glob--5.png",
+      "numColors": 5,
+      "colors": ["#042840", "#0c5d53", "#9ec23a", "#d8e02f", "#d7d78f"]
+    },
+    {
+      "name": "groove--5.png",
+      "numColors": 5,
+      "colors": ["#f49aba", "#4191c1", "#f2c43a", "#f2782f", "#dc4848"]
+    },
+    {
+      "name": "homework--5.png",
+      "numColors": 5,
+      "colors": ["#f1658b", "#3b60ad", "#3e95d1", "#d7e9ba", "#f4ae94"]
+    },
+    {
+      "name": "hour--5.png",
+      "numColors": 5,
+      "colors": ["#c0a430", "#3e3214", "#a6832d", "#f3efdd", "#0c0c0c"]
+    },
+    {
+      "name": "houston--5.png",
+      "numColors": 5,
+      "colors": ["#2f9cb9", "#3e706d", "#f15924", "#d4ead2", "#bfd5ee"]
+    },
+    {
+      "name": "hunt--5.png",
+      "numColors": 5,
+      "colors": ["#ed1b33", "#a61d1f", "#561b1d", "#192b57", "#081e3f"]
+    },
+    {
+      "name": "ice-king--5.png",
+      "numColors": 5,
+      "colors": ["#afddf7", "#eec22b", "#ffffff", "#3b54a5", "#ed1d25"]
+    },
+    {
+      "name": "interface--5.png",
+      "numColors": 5,
+      "colors": ["#32c6f4", "#2d3292", "#e84a9b", "#77d0ec", "#1e1348"]
+    },
+    {
+      "name": "jetson--5.png",
+      "numColors": 5,
+      "colors": ["#98cb4d", "#f4ee44", "#ee216c", "#272726", "#181b1a"]
+    },
+    {
+      "name": "jolly-rancher--5.png",
+      "numColors": 5,
+      "colors": ["#6950a2", "#6c9bd2", "#ee3d93", "#e97a41", "#fde188"]
+    },
+    {
+      "name": "jpop--5.png",
+      "numColors": 5,
+      "colors": ["#4f78bc", "#f15a37", "#f9ed11", "#d61a67", "#36b54a"]
+    },
+    {
+      "name": "juicy-fruit--5.png",
+      "numColors": 5,
+      "colors": ["#f9f049", "#17bcc0", "#b5d335", "#3e4a9f", "#ee393d"]
+    },
+    {
+      "name": "kayak--5.png",
+      "numColors": 5,
+      "colors": ["#84cec2", "#cce9e6", "#a65f27", "#ee2a2c", "#c02a2b"]
+    },
+    {
+      "name": "laser--5.png",
+      "numColors": 5,
+      "colors": ["#bc4b9c", "#402d85", "#5350a2", "#e5e51f", "#ef4723"]
+    },
+    {
+      "name": "lick--5.png",
+      "numColors": 5,
+      "colors": ["#ed0c88", "#d898c4", "#e8c3dc", "#f1ed98", "#da4c2c"]
+    },
+    {
+      "name": "light-bright--5.png",
+      "numColors": 5,
+      "colors": ["#040707", "#333333", "#ee378a", "#25ade3", "#b0d136"]
+    },
+    {
+      "name": "liquid-world--5.png",
+      "numColors": 5,
+      "colors": ["#ed0c88", "#731e5c", "#bc67a9", "#4e72b8", "#65c7c3"]
+    },
+    {
+      "name": "lolli--5.png",
+      "numColors": 5,
+      "colors": ["#ed1846", "#4dc6e1", "#d2da25", "#f3b817", "#f27521"]
+    },
+    {
+      "name": "loopy--5.png",
+      "numColors": 5,
+      "colors": ["#6485c3", "#fbf4bd", "#5d8283", "#383a48", "#96ca4f"]
+    },
+    {
+      "name": "louis--5.png",
+      "numColors": 5,
+      "colors": ["#e18f46", "#be1e61", "#ee3d93", "#84c287", "#33b9bf"]
+    },
+    {
+      "name": "mallo--5.png",
+      "numColors": 5,
+      "colors": ["#2dbda5", "#99a694", "#afc0a0", "#a66d59", "#8d3e3f"]
+    },
+    {
+      "name": "mashup--5.png",
+      "numColors": 5,
+      "colors": ["#231f59", "#f0e74b", "#f2d435", "#f05245", "#f3887e"]
+    },
+    {
+      "name": "mecha--5.png",
+      "numColors": 5,
+      "colors": ["#ed1846", "#9e63a7", "#7e8d5e", "#efec84", "#f36e25"]
+    },
+    {
+      "name": "merman--5.png",
+      "numColors": 5,
+      "colors": ["#314759", "#83a74b", "#f2c438", "#f3c7ad", "#db4142"]
+    },
+    {
+      "name": "meteor--5.png",
+      "numColors": 5,
+      "colors": ["#f1cf1c", "#f28121", "#da6627", "#f3a98d", "#f15758"]
+    },
+    {
+      "name": "midi--5.png",
+      "numColors": 5,
+      "colors": ["#938b77", "#56c2b2", "#ffe8ca", "#ef4b29", "#33333a"]
+    },
+    {
+      "name": "mix--5.png",
+      "numColors": 5,
+      "colors": ["#f05245", "#f2d6e7", "#f2d435", "#f2ea5c", "#ef4b29"]
+    },
+    {
+      "name": "modem--5.png",
+      "numColors": 5,
+      "colors": ["#ee2f2f", "#5d5d5d", "#f3b017", "#f4f1ee", "#f3b017"]
+    },
+    {
+      "name": "monster--5.png",
+      "numColors": 5,
+      "colors": ["#138e8e", "#1cbdda", "#f1e15f", "#f48b81", "#f3aea7"]
+    },
+    {
+      "name": "monument--5.png",
+      "numColors": 5,
+      "colors": ["#1c1d55", "#28c3ee", "#f3b817", "#d87a28", "#f15758"]
+    },
+    {
+      "name": "mr-robot--5.png",
+      "numColors": 5,
+      "colors": ["#edf39c", "#f9a74e", "#ee3d93", "#114248", "#8cb7b8"]
+    },
+    {
+      "name": "much--5.png",
+      "numColors": 5,
+      "colors": ["#787fc0", "#97a5d4", "#3ea781", "#bfbfae", "#a57f2d"]
+    },
+    {
+      "name": "mucho-macho--5.png",
+      "numColors": 5,
+      "colors": ["#f16581", "#f499b1", "#f0e415", "#735e25", "#c17f2c"]
+    },
+    {
+      "name": "neon--5.png",
+      "numColors": 5,
+      "colors": ["#1887c9", "#47a759", "#f7e543", "#dd9645", "#eb437c"]
+    },
+    {
+      "name": "neon-tiktok--5.png",
+      "numColors": 5,
+      "colors": ["#fff67d", "#00a9aa", "#00bce8", "#f89a53", "#f16367"]
+    },
+    {
+      "name": "nerve--5.png",
+      "numColors": 5,
+      "colors": ["#d66cab", "#e9c5dd", "#52449b", "#54bf9e", "#ef4723"]
+    },
+    {
+      "name": "nevadie--5.png",
+      "numColors": 5,
+      "colors": ["#aedbbd", "#fdf4b4", "#403d3c", "#ef464a", "#fdd210"]
+    },
+    {
+      "name": "nobody--5.png",
+      "numColors": 5,
+      "colors": ["#fffcf0", "#ef464a", "#e3f1fb", "#fdd210", "#404141"]
+    },
+    {
+      "name": "noisy--5.png",
+      "numColors": 5,
+      "colors": ["#6a6471", "#ed1e6b", "#8cd4db", "#050707", "#bcd630"]
+    },
+    {
+      "name": "nono--5.png",
+      "numColors": 5,
+      "colors": ["#c2d82e", "#ed1e4b", "#da44a8", "#78c03f", "#3bbfe0"]
+    },
+    {
+      "name": "organic--5.png",
+      "numColors": 5,
+      "colors": ["#ed0c88", "#7854a6", "#c8afd3", "#25b888", "#f2d435"]
+    },
+    {
+      "name": "paleo--5.png",
+      "numColors": 5,
+      "colors": ["#63cadc", "#85c740", "#755faa", "#ea3332", "#fcb326"]
+    },
+    {
+      "name": "panda--5.png",
+      "numColors": 5,
+      "colors": ["#c0b845", "#a79286", "#da2027", "#f3c8d7", "#f5f6f7"]
+    },
+    {
+      "name": "papers--5.png",
+      "numColors": 5,
+      "colors": ["#25b888", "#f3b817", "#da6927", "#ed2024", "#f05245"]
+    },
+    {
+      "name": "parrot--5.png",
+      "numColors": 5,
+      "colors": ["#dd5f50", "#587fc0", "#ee2b6e", "#f69721", "#f4e286"]
+    },
+    {
+      "name": "pb--5.png",
+      "numColors": 5,
+      "colors": ["#744951", "#ef4b29", "#ea7b2b", "#f0ec73", "#f3bb76"]
+    },
+    {
+      "name": "peepopo--5.png",
+      "numColors": 5,
+      "colors": ["#c62127", "#2c283a", "#3c7d81", "#6ebfe9", "#f9d0a8"]
+    },
+    {
+      "name": "peetoo--5.png",
+      "numColors": 5,
+      "colors": ["#c02660", "#8d234b", "#ef4b29", "#1d7373", "#042623"]
+    },
+    {
+      "name": "pictoplasma--5.png",
+      "numColors": 5,
+      "colors": ["#7fc245", "#f0da4f", "#5ec4b6", "#f49b2b", "#f3744f"]
+    },
+    {
+      "name": "ping--5.png",
+      "numColors": 5,
+      "colors": ["#423c38", "#caa490", "#edc2ac", "#687978", "#3e4b4f"]
+    },
+    {
+      "name": "plastic--5.png",
+      "numColors": 5,
+      "colors": ["#d255a8", "#7a8b8e", "#cedff3", "#457446", "#262812"]
+    },
+    {
+      "name": "poison-candy--5.png",
+      "numColors": 5,
+      "colors": ["#c70556", "#da831a", "#fcc30c", "#bfcb74", "#2691af"]
+    },
+    {
+      "name": "pong--5.png",
+      "numColors": 5,
+      "colors": ["#f8f38c", "#fecc82", "#ec3d78", "#763583", "#29266e"]
+    },
+    {
+      "name": "pop--5.png",
+      "numColors": 5,
+      "colors": ["#4ebaea", "#57ba47", "#e4e516", "#e39825", "#ef412a"]
+    },
+    {
+      "name": "pop-rocks--5.png",
+      "numColors": 5,
+      "colors": ["#932e92", "#b06127", "#fae91a", "#ed213e", "#fdc996"]
+    },
+    {
+      "name": "popsong--5.png",
+      "numColors": 5,
+      "colors": ["#393b3d", "#dc1c4b", "#5c9f9c", "#c8ddd1", "#fcf8e1"]
+    },
+    {
+      "name": "poster--5.png",
+      "numColors": 5,
+      "colors": ["#ed1c27", "#072025", "#0d3842", "#105753", "#f3d210"]
+    },
+    {
+      "name": "project--5.png",
+      "numColors": 5,
+      "colors": ["#c11e67", "#741649", "#196271", "#f3a01d", "#f3c0a2"]
+    },
+    {
+      "name": "radler--5.png",
+      "numColors": 5,
+      "colors": ["#e9236d", "#d66cab", "#f1df7a", "#f2bb18", "#acd79a"]
+    },
+    {
+      "name": "rainy--5.png",
+      "numColors": 5,
+      "colors": ["#fbf8c0", "#f9ce99", "#f175a0", "#9184be", "#96cbcc"]
+    },
+    {
+      "name": "retro-pastel--5.png",
+      "numColors": 5,
+      "colors": ["#29bda0", "#a0d9d6", "#f3ea9b", "#f39a86", "#f27677"]
+    },
+    {
+      "name": "reversal--5.png",
+      "numColors": 5,
+      "colors": ["#33321a", "#f2ec36", "#e92c30", "#58b8e8", "#040707"]
+    },
+    {
+      "name": "ringolo--5.png",
+      "numColors": 5,
+      "colors": ["#1963ad", "#6ccff6", "#6eaf44", "#e11f26", "#c3932c"]
+    },
+    {
+      "name": "riso--5.png",
+      "numColors": 5,
+      "colors": ["#4165a8", "#41638d", "#f5f4f4", "#a62122", "#ee3828"]
+    },
+    {
+      "name": "robomob--5.png",
+      "numColors": 5,
+      "colors": ["#a7b4da", "#a6d05a", "#e7e733", "#888e36", "#ef4949"]
+    },
+    {
+      "name": "rope-burn--5.png",
+      "numColors": 5,
+      "colors": ["#6bcde5", "#3679bd", "#fcb922", "#89c649", "#ffffff"]
+    },
+    {
+      "name": "second--5.png",
+      "numColors": 5,
+      "colors": ["#db9f3f", "#da5657", "#109683", "#0c6d69", "#6b5e55"]
+    },
+    {
+      "name": "sensor--5.png",
+      "numColors": 5,
+      "colors": ["#404d74", "#f4b237", "#f3892c", "#bf2026", "#c25f5f"]
+    },
+    {
+      "name": "set--5.png",
+      "numColors": 5,
+      "colors": ["#6abd45", "#1b98b3", "#ee4810", "#f5d831", "#c52031"]
+    },
+    {
+      "name": "shiki--5.png",
+      "numColors": 5,
+      "colors": ["#62bfa0", "#e7f6fc", "#28256f", "#f8aca1", "#9b3590"]
+    },
+    {
+      "name": "spore--5.png",
+      "numColors": 5,
+      "colors": ["#19bcbe", "#138e8e", "#f05245", "#db1f26", "#a74f4f"]
+    },
+    {
+      "name": "sporty--5.png",
+      "numColors": 5,
+      "colors": ["#554099", "#402d85", "#271a58", "#28c3ee", "#c02026"]
+    },
+    {
+      "name": "stickers--5.png",
+      "numColors": 5,
+      "colors": ["#5577c6", "#6dc175", "#f1d53c", "#f1d53c", "#ef4043"]
+    },
+    {
+      "name": "sticky--5.png",
+      "numColors": 5,
+      "colors": ["#226e8d", "#43c6eb", "#5ea745", "#d9ac27", "#d87828"]
+    },
+    {
+      "name": "street--5.png",
+      "numColors": 5,
+      "colors": ["#102026", "#256674", "#dad141", "#da814e", "#ef4836"]
+    },
+    {
+      "name": "stuff--5.png",
+      "numColors": 5,
+      "colors": ["#bf469a", "#2d3073", "#2c7539", "#bad65a", "#b0c03b"]
+    },
+    {
+      "name": "supernova--5.png",
+      "numColors": 5,
+      "colors": ["#d4de23", "#7b8e38", "#f3a322", "#f16722", "#ed1c24"]
+    },
+    {
+      "name": "tangerine--5.png",
+      "numColors": 5,
+      "colors": ["#083547", "#0c5f54", "#c1bc30", "#e3523d", "#ed8c21"]
+    },
+    {
+      "name": "teamwork--5.png",
+      "numColors": 5,
+      "colors": ["#db2b3b", "#f2bcd6", "#8ed2d9", "#1ea77d", "#d8ca25"]
+    },
+    {
+      "name": "techno--5.png",
+      "numColors": 5,
+      "colors": ["#5a462a", "#35beae", "#cc568a", "#3f4122", "#ca5d28"]
+    },
+    {
+      "name": "theme--5.png",
+      "numColors": 5,
+      "colors": ["#ed1c24", "#49bd93", "#f2cc10", "#f27521", "#8b181d"]
+    },
+    {
+      "name": "time--5.png",
+      "numColors": 5,
+      "colors": ["#d66cab", "#f3c5b4", "#0eb4da", "#f1e07a", "#da7b2b"]
+    },
+    {
+      "name": "time-warp--5.png",
+      "numColors": 5,
+      "colors": ["#ed135d", "#14668e", "#f1e288", "#ffca09", "#f15e22"]
+    },
+    {
+      "name": "timid--5.png",
+      "numColors": 5,
+      "colors": ["#1168a8", "#75c07c", "#f2d780", "#ef3d2f", "#8d2525"]
+    },
+    {
+      "name": "tokyo--5.png",
+      "numColors": 5,
+      "colors": ["#bec18b", "#ef4c80", "#11588a", "#dd1861", "#0d773c"]
+    },
+    {
+      "name": "toot--5.png",
+      "numColors": 5,
+      "colors": ["#181340", "#8cb68b", "#dce2d3", "#ee3325", "#bf2026"]
+    },
+    {
+      "name": "tour--5.png",
+      "numColors": 5,
+      "colors": ["#808675", "#abac9e", "#022f48", "#5b7984", "#694c28"]
+    },
+    {
+      "name": "toy--5.png",
+      "numColors": 5,
+      "colors": ["#ed184a", "#ef5c94", "#3f54a5", "#6b7bbb", "#f2cc10"]
+    },
+    {
+      "name": "trapped--5.png",
+      "numColors": 5,
+      "colors": ["#86d2dd", "#3a8d5b", "#9ed03c", "#f2bd1b", "#ef4c80"]
+    },
+    {
+      "name": "trendy--5.png",
+      "numColors": 5,
+      "colors": ["#0d395e", "#0e7167", "#d7c448", "#fbcfca", "#f3734b"]
+    },
+    {
+      "name": "triad--5.png",
+      "numColors": 5,
+      "colors": ["#4c8b93", "#e1549b", "#89d3dd", "#dedbbd", "#8e822f"]
+    },
+    {
+      "name": "tribute--5.png",
+      "numColors": 5,
+      "colors": ["#5250a2", "#f49f37", "#f4e1dd", "#591112", "#f05051"]
+    },
+    {
+      "name": "tweak--5.png",
+      "numColors": 5,
+      "colors": ["#53c4c7", "#9dc93b", "#fcb129", "#771a25", "#040707"]
+    },
+    {
+      "name": "types--5.png",
+      "numColors": 5,
+      "colors": ["#ed1b33", "#ef5ba2", "#28c0e8", "#31b44b", "#f2f0b5"]
+    },
+    {
+      "name": "ultra-wankershim--5.png",
+      "numColors": 5,
+      "colors": ["#cb65a7", "#e8c3dc", "#9b5ba4", "#34c5ed", "#f28056"]
+    },
+    {
+      "name": "variant--5.png",
+      "numColors": 5,
+      "colors": ["#d2539e", "#11588a", "#25a84a", "#f2a20c", "#ed1c24"]
+    },
+    {
+      "name": "vhs-hero--5.png",
+      "numColors": 5,
+      "colors": ["#cfaeac", "#6e54a3", "#49bd93", "#f2a01d", "#f15e22"]
+    },
+    {
+      "name": "video--5.png",
+      "numColors": 5,
+      "colors": ["#c14b61", "#3d2b74", "#a9d261", "#d8a528", "#f2dd9d"]
+    },
+    {
+      "name": "walden--5.png",
+      "numColors": 5,
+      "colors": ["#ed184a", "#28401c", "#467436", "#c0d72f", "#0c0c0c"]
+    },
+    {
+      "name": "wired--5.png",
+      "numColors": 5,
+      "colors": ["#ef4072", "#5f78a7", "#9da751", "#f36b22", "#f49188"]
+    },
+    {
+      "name": "wood-face--5.png",
+      "numColors": 5,
+      "colors": ["#403f3f", "#357ea8", "#a75525", "#8c2e1f", "#c02526"]
+    },
+    {
+      "name": "xl--5.png",
+      "numColors": 5,
+      "colors": ["#ed1c24", "#2f61ad", "#1aa64b", "#d5ca26", "#ed1c24"]
+    },
+    {
+      "name": "xyz-gen--5.png",
+      "numColors": 5,
+      "colors": ["#f39ac1", "#8581bd", "#15ab9f", "#e0ca21", "#f26b22"]
+    },
+    {
+      "name": "you--5.png",
+      "numColors": 5,
+      "colors": ["#9f278f", "#a6519e", "#394fa3", "#f26222", "#ed1c24"]
+    },
+    {
+      "name": "wada-v2-1--5.png",
+      "numColors": 5,
+      "colors": ["#f4eab2", "#fbcbb0", "#a8cab6", "#b79ea8", "#FFFFFF"]
+    },
+    {
+      "name": "wada-v2-10--5.png",
+      "numColors": 5,
+      "colors": ["#d23344", "#5E3035", "#BF8D4D", "#FFFFFF", "#97A9A1"]
+    },
+    {
+      "name": "wada-v2-102--5.png",
+      "numColors": 5,
+      "colors": ["#DE4342", "#ffeb98", "#408D56", "#ACBAB6", "#000000"]
+    },
+    {
+      "name": "wada-v2-103--5.png",
+      "numColors": 5,
+      "colors": ["#E83402", "#25752A", "#0f66ae", "#FFFFFF", "#000000"]
+    },
+    {
+      "name": "wada-v2-108--5.png",
+      "numColors": 5,
+      "colors": ["#ed6185", "#f6e220", "#616670", "#FFFFFF", "#000000"]
+    },
+    {
+      "name": "wada-v2-12--5.png",
+      "numColors": 5,
+      "colors": ["#e7cb8c", "#b7750b", "#23407E", "#6F63A2", "#ACBAB6"]
+    },
+    {
+      "name": "wada-v2-13--5.png",
+      "numColors": 5,
+      "colors": ["#ffeb98", "#eb3a10", "#408D56", "#b5e5e0", "#161A2B"]
+    },
+    {
+      "name": "wada-v2-143--5.png",
+      "numColors": 5,
+      "colors": ["#A21726", "#B9BE7C", "#ffe201", "#3A3E63", "#616670"]
+    },
+    {
+      "name": "wada-v2-153--5.png",
+      "numColors": 5,
+      "colors": ["#f1736d", "#fbcbb0", "#593A14", "#6DCAE5", "#204A6D"]
+    },
+    {
+      "name": "wada-v2-154--5.png",
+      "numColors": 5,
+      "colors": ["#fae087", "#98513A", "#1da684", "#8BA6C3", "#b79ea8"]
+    },
+    {
+      "name": "wada-v2-161--5.png",
+      "numColors": 5,
+      "colors": ["#E83402", "#fae087", "#d3935f", "#8D5B18", "#0f5385"]
+    },
+    {
+      "name": "wada-v2-167--5.png",
+      "numColors": 5,
+      "colors": ["#f1736d", "#A41834", "#e7cb8c", "#593A14", "#483245"]
+    },
+    {
+      "name": "wada-v2-168--5.png",
+      "numColors": 5,
+      "colors": ["#faad43", "#1da684", "#1E889A", "#ffffff", "#000000"]
+    },
+    {
+      "name": "wada-v2-71--5.png",
+      "numColors": 5,
+      "colors": ["#CAA496", "#98513A", "#9ed6e1", "#97A9A1", "#313b46"]
+    },
+    {
+      "name": "wada-v2-229--5.png",
+      "numColors": 5,
+      "colors": ["#ffeb97", "#b9be7c", "#618656", "#6DCAE5", "#8C7733"]
+    },
+    {
+      "name": "wada-v2-186--5.png",
+      "numColors": 5,
+      "colors": ["#c71929", "#f26f2e", "#24878A", "#ffffff", "#f4dadf"]
+    },
+    {
+      "name": "wada-v2-220--5.png",
+      "numColors": 5,
+      "colors": ["#98513a", "#8ba6c3", "#6DCAE5", "#4A79AE", "#000000"]
+    },
+    {
+      "name": "wada-v2-183--5.png",
+      "numColors": 5,
+      "colors": ["#c3480d", "#fae087", "#1b8450", "#FFFFFF", "#000000"]
+    },
+    {
+      "name": "wada-v2-216--5.png",
+      "numColors": 5,
+      "colors": ["#dda7ac", "#d23344", "#58C0AE", "#95998A", "#000000"]
+    },
+    {
+      "name": "wada-v2-218--5.png",
+      "numColors": 5,
+      "colors": ["#a73041", "#d0a31c", "#204A6D", "#b79ea8", "#000000"]
+    },
+    {
+      "name": "wada-v2-23--5.png",
+      "numColors": 5,
+      "colors": ["#ffeb97", "#a7a819", "#98c7cb", "#b79ea8", "#ACBAB6"]
+    },
+    {
+      "name": "wada-v2-29--5.png",
+      "numColors": 5,
+      "colors": ["#f0e087", "#c3a433", "#9B8411", "#5F8880", "#333e2b"]
+    },
+    {
+      "name": "wada-v2-39--5.png",
+      "numColors": 5,
+      "colors": ["#BE510D", "#3A3E63", "#b79ea8", "#ae72a9", "#544395"]
+    },
+    {
+      "name": "wada-v2-17--5.png",
+      "numColors": 5,
+      "colors": ["#A13C35", "#ec9475", "#98c7cb", "#456368", "#161A2B"]
+    },
+    {
+      "name": "wada-v2-170--5.png",
+      "numColors": 5,
+      "colors": ["#da2809", "#FFCD00", "#6DCAE5", "#023c36", "#FFFFFF"]
+    },
+    {
+      "name": "wada-v2-232--5.png",
+      "numColors": 5,
+      "colors": ["#DE4342", "#6DCAE5", "#456368", "#204A6D", "#000000"]
+    },
+    {
+      "name": "wada-v2-24--5.png",
+      "numColors": 5,
+      "colors": ["#ca9a96", "#ed6185", "#de4342", "#9A953A", "#4A79AE"]
+    },
+    {
+      "name": "wada-v2-66--5.png",
+      "numColors": 5,
+      "colors": ["#f5a5b1", "#de1108", "#ffeb97", "#ecA463", "#ffeb97"]
+    },
+    {
+      "name": "wada-v2-72--5.png",
+      "numColors": 5,
+      "colors": ["#E83402", "#ffeb97", "#593A14", "#8BA6C3", "#ACBAB6"]
+    },
+    {
+      "name": "wada-v2-27--5.png",
+      "numColors": 5,
+      "colors": ["#f5a5b1", "#ca9a96", "#EF6249", "#72122E", "#f0e087"]
+    },
+    {
+      "name": "wada-v2-198--5.png",
+      "numColors": 5,
+      "colors": ["#d64a0b", "#592710", "#618656", "#4A79AE", "#FFFFFF"]
+    },
+    {
+      "name": "wada-v2-199--5.png",
+      "numColors": 5,
+      "colors": ["#f05301", "#98c7cb", "#0f5385", "#456368", "#FFFFFF"]
+    },
+    {
+      "name": "wada-v2-176--5.png",
+      "numColors": 5,
+      "colors": ["#de1108", "#8D5B18", "#222420", "#FFFFFF", "#B9C785"]
+    },
+    {
+      "name": "wada-v2-2--5.png",
+      "numColors": 5,
+      "colors": ["#baa37d", "#7E7240", "#412716", "#1c857c", "#616670"]
+    },
+    {
+      "name": "wada-v2-20--5.png",
+      "numColors": 5,
+      "colors": ["#f6b3cb", "#ffe201", "#abddbe", "#89cc94", "#6DCAE5"]
+    },
+    {
+      "name": "wada-v2-200--5.png",
+      "numColors": 5,
+      "colors": ["#A21726", "#d0a31c", "#00867C", "#ffffff", "#000000"]
+    },
+    {
+      "name": "wada-v2-35--5.png",
+      "numColors": 5,
+      "colors": ["#aa8181", "#f07765", "#b21345", "#1B8450", "#56303C"]
+    },
+    {
+      "name": "wada-v2-36--5.png",
+      "numColors": 5,
+      "colors": ["#cd5066", "#a7a819", "#6DCAC5", "#141E1F", "#fcddda"]
+    },
+    {
+      "name": "wada-v2-210--5.png",
+      "numColors": 5,
+      "colors": ["#b7750b", "#6C2113", "#b5e5e0", "#b79ea8", "#fcd3da"]
+    },
+    {
+      "name": "wada-v2-46--5.png",
+      "numColors": 5,
+      "colors": ["#BCAFA2", "#969B47", "#f1f6e4", "#49A8A6", "#482B80"]
+    },
+    {
+      "name": "wada-v2-190--5.png",
+      "numColors": 5,
+      "colors": ["#f1736d", "#FFEB98", "#767846", "#98c7cb", "#000000"]
+    },
+    {
+      "name": "wada-v2-192--5.png",
+      "numColors": 5,
+      "colors": ["#b21345", "#c3a433", "#8ba6c3", "#ffffff", "#000000"]
+    },
+    {
+      "name": "wada-v2-47--5.png",
+      "numColors": 5,
+      "colors": ["#F1736C", "#d23344", "#f6e220", "#49A8A6", "#47393D"]
+    },
+    {
+      "name": "wada-v2-63--5.png",
+      "numColors": 5,
+      "colors": ["#b21345", "#f4eab2", "#a8cab6", "#9ed6e1", "#313b46"]
+    },
+    {
+      "name": "wada-v2-68--5.png",
+      "numColors": 5,
+      "colors": ["#bd2356", "#f4eab2", "#d0a31c", "#abbc97", "#204A6D"]
+    },
+    {
+      "name": "wada-v2-55--5.png",
+      "numColors": 5,
+      "colors": ["#791B17", "#f4eab2", "#00868C", "#19213A", "#682D44"]
+    },
+    {
+      "name": "wada-v2-7--5.png",
+      "numColors": 5,
+      "colors": ["#A41834", "#9B8411", "#99c7cb", "#58C0AE", "#FFFFFF"]
+    },
+    {
+      "name": "wada-v2-76--5.png",
+      "numColors": 5,
+      "colors": ["#A41834", "#f26f2e", "#89ca94", "#4A79AE", "#000000"]
+    },
+    {
+      "name": "wada-v2-78--5.png",
+      "numColors": 5,
+      "colors": ["#EF6249", "#6C2113", "#1E889A", "#000000", "#b9c785"]
+    },
+    {
+      "name": "spectra--5.png",
+      "numColors": 5,
+      "colors": ["#2a0b28", "#5C6EBC", "#e32c9f", "#ff8342", "#e7ff06"]
+    },
+    {
+      "name": "wada-v2-8--5.png",
+      "numColors": 5,
+      "colors": ["#BB8E09", "#767846", "#25752A", "#19213A", "#ae72a9"]
+    },
+    {
+      "name": "wada-v2-84--5.png",
+      "numColors": 5,
+      "colors": ["#cd5066", "#BF9650", "#B9BE7C", "#593F10", "#9ed6e1"]
+    },
+    {
+      "name": "wada-v2-89--5.png",
+      "numColors": 5,
+      "colors": ["#f5e087", "#E7CB8C", "#408D56", "#192B40", "#823A53"]
+    },
+    {
+      "name": "wada-v2-99--5.png",
+      "numColors": 5,
+      "colors": ["#c3480d", "#5E3035", "#408D56", "#FFFFFF", "#959A89"]
+    },
+    {
+      "name": "back-to-school-timez--5.png",
+      "numColors": 5,
+      "colors": ["#f6ae20", "#f67d02", "#ec294e", "#351679", "#ebc8b7"]
+    },
+    {
+      "name": "wada-v2-92--5.png",
+      "numColors": 5,
+      "colors": ["#AF2A65", "#a8cab6", "#558368", "#000000", "#969B47"]
+    },
+    {
+      "name": "wada-v2-93--5.png",
+      "numColors": 5,
+      "colors": ["#faad43", "#653F22", "#98c7cb", "#000000", "#f1f6e4"]
+    },
+    {
+      "name": "greyscale--6.png",
+      "numColors": 6,
+      "colors": ["#ffffff", "#b3b4b4", "#818282", "#4e4e4e", "#343219", "#191a1a"]
+    },
+    {
+      "name": "wada-v2-11--6.png",
+      "numColors": 6,
+      "colors": ["#CAA496", "#ec5081", "#de1108", "#bd2356", "#a41834", "#96559D"]
+    },
+    {
+      "name": "wada-v2-112--6.png",
+      "numColors": 6,
+      "colors": ["#a41834", "#f4eab2", "#fbcbb0", "#baa37d", "#a8cab6", "#1f889a"]
+    },
+    {
+      "name": "wada-v2-113--6.png",
+      "numColors": 6,
+      "colors": ["#d23344", "#de1108", "#fa9d01", "#abddd8", "#9ed6e1", "#1f889a"]
+    },
+    {
+      "name": "wada-v2-115--6.png",
+      "numColors": 6,
+      "colors": ["#f6b3cb", "#de1108", "#78B315", "#036687", "#FFFFFF", "#000000"]
+    },
+    {
+      "name": "wada-v2-148--6.png",
+      "numColors": 6,
+      "colors": ["#ED6185", "#da2809", "#B9BE7C", "#9ed6e1", "#ACBAB6", "#000000"]
+    },
+    {
+      "name": "wada-v2-15--6.png",
+      "numColors": 6,
+      "colors": ["#f07765", "#c71929", "#B9BE7C", "#98513A", "#b53e88", "#45173B"]
+    },
+    {
+      "name": "wada-v2-156--6.png",
+      "numColors": 6,
+      "colors": ["#c1392e", "#6f251d", "#f78300", "#654022", "#9ed6e1", "#C1809E"]
+    },
+    {
+      "name": "wada-v2-159--6.png",
+      "numColors": 6,
+      "colors": ["#cd5066", "#fae087", "#d64a0b", "#592710", "#204A6D", "#000000"]
+    },
+    {
+      "name": "wada-v2-166--6.png",
+      "numColors": 6,
+      "colors": ["#cd5066", "#d0a31c", "#592710", "#9ed6e1", "#3A3E63", "#616670"]
+    },
+    {
+      "name": "wada-v2-233--6.png",
+      "numColors": 6,
+      "colors": ["#f5a5b1", "#fae087", "#9ed6e1", "#58C0AE", "#b79ea8", "#ACBAB6"]
+    },
+    {
+      "name": "wada-v2-224--6.png",
+      "numColors": 6,
+      "colors": ["#A22E0F", "#fbb65d", "#B9BE7C", "#EB3A10", "#6DCAE5", "#c1819e"]
+    },
+    {
+      "name": "wada-v2-225--6.png",
+      "numColors": 6,
+      "colors": ["#A22E0F", "#ffe201", "#b7750b", "#5F8880", "#b5e5e0", "#000000"]
+    },
+    {
+      "name": "wada-v2-226--6.png",
+      "numColors": 6,
+      "colors": ["#E7CB8C", "#98c7cb", "#4A79AE", "#c1819e", "#555594", "#000000"]
+    },
+    {
+      "name": "wada-v2-212--6.png",
+      "numColors": 6,
+      "colors": ["#b21345", "#f28c33", "#592710", "#4A79AE", "#FFFFFF", "#000000"]
+    },
+    {
+      "name": "wada-v2-213--6.png",
+      "numColors": 6,
+      "colors": ["#DE1108", "#f0e087", "#EB3A10", "#653F22", "#408D56", "#acbaba"]
+    },
+    {
+      "name": "wada-v2-6--6.png",
+      "numColors": 6,
+      "colors": ["#cd5066", "#bf8d4d", "#FFCD00", "#3A3E63", "#b79ea8", "#616670"]
+    },
+    {
+      "name": "wada-v2-179--6.png",
+      "numColors": 6,
+      "colors": ["#DA2809", "#ffeb98", "#fbb65d", "#456368", "#192B40", "#f1f6e4"]
+    },
+    {
+      "name": "wada-v2-18--6.png",
+      "numColors": 6,
+      "colors": ["#DE4342", "#f28c33", "#d0a31c", "#735C36", "#618656", "#204A6D"]
+    },
+    {
+      "name": "wada-v2-230--6.png",
+      "numColors": 6,
+      "colors": ["#dda7ac", "#f1736d", "#da2809", "#E7CB8C", "#412716", "#5F8880"]
+    },
+    {
+      "name": "wada-v2-235--6.png",
+      "numColors": 6,
+      "colors": ["#DE4342", "#DEA31C", "#24878A", "#456368", "#95998A", "#000000"]
+    },
+    {
+      "name": "wada-v2-236--6.png",
+      "numColors": 6,
+      "colors": ["#ed6185", "#fa9d01", "#58C0AE", "#0f5385", "#acbaba", "#000000"]
+    },
+    {
+      "name": "wada-v2-33--6.png",
+      "numColors": 6,
+      "colors": ["#ec9475", "#b9be7c", "#f6e220", "#8ba6c3", "#c1819e", "#FFFFFF"]
+    },
+    {
+      "name": "wada-v2-196--6.png",
+      "numColors": 6,
+      "colors": ["#c00a1b", "#FFCD00", "#bcc62c", "#9ed6e1", "#616670", "#f1f6e4"]
+    },
+    {
+      "name": "wada-v2-4--6.png",
+      "numColors": 6,
+      "colors": ["#f6b3cb", "#cd5066", "#a83a10", "#a41834", "#fAB984", "#f78300"]
+    },
+    {
+      "name": "wada-v2-3--6.png",
+      "numColors": 6,
+      "colors": ["#b65a0b", "#721B1B", "#000000", "#FAB984", "#000000", "#a7a819"]
+    },
+    {
+      "name": "wada-v2-5--6.png",
+      "numColors": 6,
+      "colors": ["#de1108", "#E7CB8C", "#89ca94", "#192B40", "#95998A", "#000000"]
+    },
+    {
+      "name": "wada-v2-228--6.png",
+      "numColors": 6,
+      "colors": ["#DEA31C", "#abddbe", "#333e2b", "#58C0AE", "#456368", "#f1f6e4"]
+    },
+    {
+      "name": "wada-v2-77--6.png",
+      "numColors": 6,
+      "colors": ["#5E3035", "#fae087", "#f05301", "#618656", "#1E889A", "#ffffff"]
+    },
+    {
+      "name": "wada-v2-79--6.png",
+      "numColors": 6,
+      "colors": ["#F5A5B1", "#c71529", "#b7750b ", "#618656", "#FFFFFF", "#47393D"]
+    },
+    {
+      "name": "wada-v2-82--6.png",
+      "numColors": 6,
+      "colors": ["#f5a5b1", "#de4342", "#baa37d", "#036687", "#B53E88", "#000000"]
+    },
+    {
+      "name": "wada-v2-83--6.png",
+      "numColors": 6,
+      "colors": ["#c3a433", "#be510d", "#4A79AE", "#FFFFFF", "#acbaba", "#000000"]
+    },
+    {
+      "name": "wada-v2-88--6.png",
+      "numColors": 6,
+      "colors": ["#d23344", "#fbb65d", "#ec9475", "#408D56", "#99c7cb", "#555594"]
+    },
+    {
+      "name": "wada-v2-9--6.png",
+      "numColors": 6,
+      "colors": ["#DEA31C", "#d64a0b", "#b7750b", "#5D7267", "#161A2B", "#8C7741"]
+    },
+    {
+      "name": "wada-v2-90--6.png",
+      "numColors": 6,
+      "colors": ["#F6B3CB", "#BF8D4D", "#baa37d", "#618656", "#9ed6e1", "#ACAAD5"]
+    },
+    {
+      "name": "sunsetting--6.png",
+      "numColors": 6,
+      "colors": ["#f5af5b", "#f6c300", "#f55f38", "#c6133f", "#60174A", "#00092E"]
+    },
+    {
+      "name": "80s-icecream--6.png",
+      "numColors": 6,
+      "colors": ["#E8406A", "#EF872C", "#3C2A2B", "#d2d1ca", "#a5d41d", "#e039a6"]
+    },
+    {
+      "name": "nyc-deco--6.png",
+      "numColors": 6,
+      "colors": ["#bbf600", "#000000", "#f6f6f6", "#f6a013", "#f61d99", "#940cc7"]
+    },
+    {
+      "name": "wada-v2-104--7.png",
+      "numColors": 7,
+      "colors": ["#aa817d", "#ed6185", "#b21345", "#f4eab2", "#ffe200", "#1f889a", "#204A6D"]
+    },
+    {
+      "name": "wada-v2-14--7.png",
+      "numColors": 7,
+      "colors": ["#dda7ac", "#A01E25", "#fbcbb0", "#eca463", "#8C7733", "#b5e5e0", "#141E1F"]
+    },
+    {
+      "name": "wada-v2-16--7.png",
+      "numColors": 7,
+      "colors": ["#98c7cb", "#1E889A", "#0f5385", "#23407E", "#ACAAD5", "#B79EA8", "#555594"]
+    },
+    {
+      "name": "wada-v2-214--7.png",
+      "numColors": 7,
+      "colors": ["#BF8D4D", "#412716", "#bcc62c", "#408D56", "#89cc94", "#4A79AE", "#FFFFFF"]
+    },
+    {
+      "name": "wada-v2-209--7.png",
+      "numColors": 7,
+      "colors": ["#ECA463", "#ffe201", "#EB3A10", "#abddbe", "#1c857c", "#ACAAD5", "#f1f6e4"]
+    },
+    {
+      "name": "wada-v2-215--7.png",
+      "numColors": 7,
+      "colors": ["#baa37d", "#786D17", "#98513a", "#0f66ae", "#ffffff", "#000000", "#fcd3da"]
+    },
+    {
+      "name": "wada-v2-211--7.png",
+      "numColors": 7,
+      "colors": ["#d23344", "#f0e087", "#be5f29", "#618656", "#b5e5e0", "#000000", "#b9c785"]
+    },
+    {
+      "name": "wada-v2-231--7.png",
+      "numColors": 7,
+      "colors": ["#aa8181", "#A22E0F", "#bb8e09", "#A7A819", "#abddbe", "#1C857C", "#47393D"]
+    },
+    {
+      "name": "wada-v2-222--7.png",
+      "numColors": 7,
+      "colors": ["#f1736d", "#a73041", "#a23041", "#a23041", "#6DCAE5", "#456368", "#000000"]
+    },
+    {
+      "name": "wada-v2-219--7.png",
+      "numColors": 7,
+      "colors": ["#ED6185", "#bb8e09", "#0f5385", "#FFFFFF", "#97A9A1", "#000000", "#b9c785"]
+    },
+    {
+      "name": "wada-v2-223--7.png",
+      "numColors": 7,
+      "colors": ["#EF6249", "#ED6185", "#fae087", "#fbcbb0", "#9B8411", "#9ed6e1", "#3A3E63"]
+    },
+    {
+      "name": "wada-v2-81--7.png",
+      "numColors": 7,
+      "colors": ["#A41834", "#E7CB8C", "#ec9475", "#036687", "#B53E88", "#6E3347", "#000000"]
+    },
+    {
+      "name": "wada-v2-87--7.png",
+      "numColors": 7,
+      "colors": ["#E7CB8C", "#EB3A10", "#8D5B18", "#b8c62c", "#036687", "#023c36", "#FFFFFF"]
+    },
+    {
+      "name": "wada-v2-111--8.png",
+      "numColors": 8,
+      "colors": ["#f1736d", "#6F251D", "#fbb65d", "#9ed6e1", "#58c0ae", "#0f66ae", "#FFFFFF", "#ACBAB6"]
+    },
+    {
+      "name": "wada-v2-221--8.png",
+      "numColors": 8,
+      "colors": ["#ec5081", "#791B17", "#fa9d01", "#412716", "#408D56", "#98c7cb", "#97A9A1", "#000000"]
+    },
+    {
+      "name": "wada-v2-234--8.png",
+      "numColors": 8,
+      "colors": ["#f5a5b1", "#faad43", "#bf8d4d", "#d64a0b", "#618656", "#463A7E", "#000000", "#49A8A6"]
+    },
+    {
+      "name": "wada-v2-155--9.png",
+      "numColors": 9,
+      "colors": ["#ED6185", "#70311a", "#fbcbb0", "#fa9d01", "#687745", "#9ed6e1", "#456368", "#023c36", "#204A6D"]
+    },
+    {
+      "name": "wada-v2-157--9.png",
+      "numColors": 9,
+      "colors": ["#A01E25", "#faad43", "#BE510D", "#98c7cb", "#3A3E63", "#204A6D", "#C1809E", "#ffffff", "#000000"]
+    }
+  ]
+}

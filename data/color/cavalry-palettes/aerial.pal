@@ -1,0 +1,33 @@
+{
+  "colors": [
+    {
+      "color": "#ed135d",
+      "swatchName" : "Fluro pink",
+      "uid": 0
+    },
+    {
+      "color": "#3d91ce",
+      "swatchName": "Blue",
+      "uid": 1
+    },
+    {
+      "color": "#f0e415", 
+      "swatchName": "Yellow",
+      "uid": 2
+    },
+    {
+      "color": "#f3b817",
+      "swatchName": "Deep yellow",
+      "uid": 3
+    },
+    {
+      "color": "#f15d22",
+      "swatchName": "Orange red"
+    }
+  ],
+  "designer": "unknown",
+  "fileType": ".pal",
+  "name": "Aerial",
+  "version": 1.0,
+  "website": ""
+} 

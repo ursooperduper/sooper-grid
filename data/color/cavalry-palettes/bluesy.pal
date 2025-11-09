@@ -1,0 +1,33 @@
+{
+  "colors": [
+    {
+      "color": "#3e5aa8",
+      "swatchName" : "Blue purp",
+      "uid": 0
+    },
+    {
+      "color": "#3c6fb6",
+      "swatchName": "Flat blue",
+      "uid": 1
+    },
+    {
+      "color": "#41b4e7", 
+      "swatchName": "Light blue",
+      "uid": 2
+    },
+    {
+      "color": "#59c7d3",
+      "swatchName": "Flat turquoise",
+      "uid": 3
+    },
+    {
+      "color": "#70c6a6",
+      "swatchName": "Mint green"
+    }
+  ],
+  "designer": "unknown",
+  "fileType": ".pal",
+  "name": "Bluesy",
+  "version": 1.0,
+  "website": ""
+}

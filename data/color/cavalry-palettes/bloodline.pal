@@ -1,0 +1,33 @@
+{
+  "colors": [
+    {
+      "color": "#3ba69c",
+      "swatchName" : "Flat turquoise",
+      "uid": 0
+    },
+    {
+      "color": "#f3c949",
+      "swatchName": "Pastel yellow",
+      "uid": 1
+    },
+    {
+      "color": "#Pastel orange", 
+      "swatchName": "Orange",
+      "uid": 2
+    },
+    {
+      "color": "#550d0e",
+      "swatchName": "Dark red",
+      "uid": 3
+    },
+    {
+      "color": "#db4343",
+      "swatchName": "Flat red"
+    }
+  ],
+  "designer": "unknown",
+  "fileType": ".pal",
+  "name": "Bloodline",
+  "version": 1.0,
+  "website": ""
+}

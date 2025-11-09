@@ -1,0 +1,33 @@
+{
+  "colors": [
+    {
+      "color": "#f5f6f7",
+      "swatchName" : "White",
+      "uid": 0
+    },
+    {
+      "color": "#c0bfbf",
+      "swatchName": "Lightest grey",
+      "uid": 1
+    },
+    {
+      "color": "#8d8e8d", 
+      "swatchName": "Grey",
+      "uid": 2
+    },
+    {
+      "color": "#414141",
+      "swatchName": "Dark grey",
+      "uid": 3
+    },
+    {
+      "color": "#0c0c0c",
+      "swatchName": "Black"
+    }
+  ],
+  "designer": "unknown",
+  "fileType": ".pal",
+  "name": "Animated",
+  "version": 1.0,
+  "website": ""
+}

@@ -1,0 +1,33 @@
+{
+  "colors": [
+    {
+      "color": "#ed1f55",
+      "swatchName" : "Magenta",
+      "uid": 0
+    },
+    {
+      "color": "#f99f1b",
+      "swatchName": "Pastel orange",
+      "uid": 1
+    },
+    {
+      "color": "#f9d609", 
+      "swatchName": "Yellow",
+      "uid": 2
+    },
+    {
+      "color": "#a7c038",
+      "swatchName": "Greenish yellow",
+      "uid": 3
+    },
+    {
+      "color": "#17aab5",
+      "swatchName": "Light blue"
+    }
+  ],
+  "designer": "unknown",
+  "fileType": ".pal",
+  "name": "Bloop",
+  "version": 1.0,
+  "website": ""
+}

@@ -1,0 +1,33 @@
+{
+  "colors": [
+    {
+      "color": "#a63047",
+      "swatchName" : "Flat red",
+      "uid": 0
+    },
+    {
+      "color": "#87c0a1",
+      "swatchName": "Mint green",
+      "uid": 1
+    },
+    {
+      "color": "#f1e17d", 
+      "swatchName": "Pastel yellow",
+      "uid": 2
+    },
+    {
+      "color": "#f3ab25",
+      "swatchName": "Yellow orange",
+      "uid": 3
+    },
+    {
+      "color": "#db663b",
+      "swatchName": "Flat orange"
+    }
+  ],
+  "designer": "unknown",
+  "fileType": ".pal",
+  "name": "Battle",
+  "version": 1.0,
+  "website": ""
+}

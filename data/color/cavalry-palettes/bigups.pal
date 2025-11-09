@@ -1,0 +1,33 @@
+{
+  "colors": [
+    {
+      "color": "#f27faa",
+      "swatchName" : "Pink",
+      "uid": 0
+    },
+    {
+      "color": "#2dacd1",
+      "swatchName": "Light blue",
+      "uid": 1
+    },
+    {
+      "color": "#f2cc10", 
+      "swatchName": "Yellow",
+      "uid": 2
+    },
+    {
+      "color": "#f39545",
+      "swatchName": "Pastel orange",
+      "uid": 3
+    },
+    {
+      "color": "#ee3223",
+      "swatchName": "Red"
+    }
+  ],
+  "designer": "unknown",
+  "fileType": ".pal",
+  "name": "Bigups",
+  "version": 1.0,
+  "website": ""
+}

@@ -1,0 +1,33 @@
+{
+  "colors": [
+    {
+      "color": "#451f59",
+      "swatchName" : "Dark purple",
+      "uid": 0
+    },
+    {
+      "color": "#4486c7",
+      "swatchName": "Flat blue",
+      "uid": 1
+    },
+    {
+      "color": "#f3ba17", 
+      "swatchName": "Deep yellow",
+      "uid": 2
+    },
+    {
+      "color": "#591c0f",
+      "swatchName": "Red brown",
+      "uid": 3
+    },
+    {
+      "color": "#ef4c4b",
+      "swatchName": "Salmon"
+    }
+  ],
+  "designer": "unknown",
+  "fileType": ".pal",
+  "name": "Anything",
+  "version": 1.0,
+  "website": ""
+}

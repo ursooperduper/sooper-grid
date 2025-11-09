@@ -1,0 +1,33 @@
+{
+  "colors": [
+    {
+      "color": "#ed2127",
+      "swatchName" : "Red",
+      "uid": 0
+    },
+    {
+      "color": "#c5e3c0",
+      "swatchName": "Light mint green",
+      "uid": 1
+    },
+    {
+      "color": "#7493af", 
+      "swatchName": "Light grey blue",
+      "uid": 2
+    },
+    {
+      "color": "#fcaf22",
+      "swatchName": "Orange yellow",
+      "uid": 3
+    },
+    {
+      "color": "#958834",
+      "swatchName": "Army green"
+    }
+  ],
+  "designer": "unknown",
+  "fileType": ".pal",
+  "name": "BMO",
+  "version": 1.0,x
+  "website": ""
+}

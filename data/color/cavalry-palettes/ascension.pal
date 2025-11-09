@@ -1,0 +1,33 @@
+{
+  "colors": [
+    {
+      "color": "#a61d35",
+      "swatchName" : "Red",
+      "uid": 0
+    },
+    {
+      "color": "#ef5e95",
+      "swatchName": "Pink",
+      "uid": 1
+    },
+    {
+      "color": "#2dacd1", 
+      "swatchName": "Bright blue",
+      "uid": 2
+    },
+    {
+      "color": "#398e42",
+      "swatchName": "Forest Green",
+      "uid": 3
+    },
+    {
+      "color": "#f27921",
+      "swatchName": "Orange"
+    }
+  ],
+  "designer": "unknown",
+  "fileType": ".pal",
+  "name": "Ascension",
+  "version": 1.0,
+  "website": ""
+}

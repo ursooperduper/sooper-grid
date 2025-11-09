@@ -1,0 +1,33 @@
+{
+  "colors": [
+    {
+      "color": "#f3745f",
+      "swatchName" : "Salmon",
+      "uid": 0
+    },
+    {
+      "color": "#f7f057",
+      "swatchName": "Pastel yellow",
+      "uid": 1
+    },
+    {
+      "color": "#51c9eb", 
+      "swatchName": "Baby blue",
+      "uid": 2
+    },
+    {
+      "color": "#ed2024",
+      "swatchName": "Red",
+      "uid": 3
+    },
+    {
+      "color": "#ef4a75",
+      "swatchName": "Deep pink"
+    }
+  ],
+  "designer": "unknown",
+  "fileType": ".pal",
+  "name": "Blink",
+  "version": 1.0,
+  "website": ""
+}

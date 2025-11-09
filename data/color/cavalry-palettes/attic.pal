@@ -1,0 +1,33 @@
+{
+  "colors": [
+    {
+      "color": "#da535f",
+      "swatchName" : "Dusty rose",
+      "uid": 0
+    },
+    {
+      "color": "#3c59a8",
+      "swatchName": "Blue",
+      "uid": 1
+    },
+    {
+      "color": "#2b744d", 
+      "swatchName": "Green",
+      "uid": 2
+    },
+    {
+      "color": "#d9ab27",
+      "swatchName": "Dirty yellow",
+      "uid": 3
+    },
+    {
+      "color": "#c02d26",
+      "swatchName": "Red"
+    }
+  ],
+  "designer": "unknown",
+  "fileType": ".pal",
+  "name": "Attic",
+  "version": 1.0,
+  "website": ""
+}

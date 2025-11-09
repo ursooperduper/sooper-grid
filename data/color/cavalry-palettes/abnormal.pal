@@ -1,0 +1,33 @@
+{
+  "colors": [
+    {
+      "color": "#DA415E",
+      "swatchName" : "Pink",
+      "uid": 0
+    },
+    {
+      "color": "#1f69b3",
+      "swatchName": "Blue",
+      "uid": 1
+    },
+    {
+      "color":  "#d9d8d7", 
+      "swatchName": "Off white",
+      "uid": 2
+    },
+    {
+      "color": "#db3227",
+      "swatchName": "Red",
+      "uid": 3
+    },
+    {
+      "color": "#da7370",
+      "swatchName": "Dusty rose"
+    }
+  ],
+  "designer": "unknown",
+  "fileType": ".pal",
+  "name": "Abnormal",
+  "version": 1.0,
+  "website": ""
+}

@@ -1,1 +1,2 @@
-# sooper-grid
+# SooperGrid
+

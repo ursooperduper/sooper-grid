@@ -1,0 +1,33 @@
+{
+  "colors": [
+    {
+      "color": "#f05fa3",
+      "swatchName" : "Pink",
+      "uid": 0
+    },
+    {
+      "color": "#f9ab19",
+      "swatchName": "Yellow orange",
+      "uid": 1
+    },
+    {
+      "color": "#f28820", 
+      "swatchName": "Orange",
+      "uid": 2
+    },
+    {
+      "color": "#b8d436",
+      "swatchName": "Yellow green",
+      "uid": 3
+    },
+    {
+      "color": "#4cc7e5",
+      "swatchName": "Baby blue"
+    }
+  ],
+  "designer": "unknown",
+  "fileType": ".pal",
+  "name": "Bloat",
+  "version": 1.0,
+  "website": ""
+}
