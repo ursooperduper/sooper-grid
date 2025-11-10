@@ -847,7 +847,8 @@ function failure(event) {
 }
 
 function generateSeed() {
-  let currSeed = millis() + second() * 1000;
+  // Create a seed using timestamp to ensure it's always a whole number
+  let currSeed = Math.floor(Date.now() + Math.random() * 1000);
   seed = currSeed;
   
   // Set the random seeds for p5.js
