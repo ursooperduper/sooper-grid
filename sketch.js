@@ -38,6 +38,8 @@ let numClrs;
 let palCount;   
 let strokeWt                  = 1;
 let strokeSet                 = false;
+let w; // canvas width/height (square)
+let pad; // outer padding for the grid
 
 /* COLOR ------------------------------------------------------------------- */
 let clrArr                    = [];
@@ -65,12 +67,19 @@ function preload() {
   palList = loadJSON(palFiles);
 }
 
+// Determine canvas size based on viewport width (mobile-first breakpoints)
+function getResponsiveCanvasSize() {
+  if (windowWidth < 768) return 320;      // Mobile
+  if (windowWidth < 1024) return 600;     // Tablet
+  if (windowWidth < 1440) return 700;     // Desktop
+  return 800;                             // Large desktop (current max)
+}
+
 function setup(){
   let d = displayDensity();
   pixelDensity(d);
 
-  // w = min(windowWidth, windowHeight);
-  w = 800;
+  w = getResponsiveCanvasSize();
   let c = createCanvas(w, w, SVG);
   c.parent("canvasWrapper");
 
@@ -897,6 +906,14 @@ function clamp(val, min, max) {
 function updateGrid() {
   revPalList.length = 0;
   redraw();
+}
+
+// Resize canvas when viewport changes and redraw grid
+function windowResized() {
+  w = getResponsiveCanvasSize();
+  resizeCanvas(w, w);
+  pad = w / 32;
+  updateGrid();
 }
 
 function saveAnSVG() {

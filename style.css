@@ -121,14 +121,14 @@ html, body {
 }
 
 
+/* Mobile-first: Stack vertically */
 .soopergrid-container {
   width: 100%;
   display: flex;
-  flex-direction: row; 
+  flex-direction: column;
   flex-wrap: nowrap;
-  flex-flow: row nowrap;
-  justify-content: center;
-  align-items: flex-start;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 h1 {
@@ -149,15 +149,18 @@ body {
 
 
 /* UI CONTROLS ------------------------------------------------------------- */
+/* Mobile-first: Full width */
 #ui {
-  width: 25%;
+  width: 100%;
+  max-width: 600px;
   padding: 1rem;
-  margin: 1rem;
-  font-size: var(--)
+  margin: 0;
 }
 
 .grid-logo {
   margin-left: 0.75rem;
+  max-width: 180px;
+  height: auto;
 }
 
 /* Logo bar with theme toggle */
@@ -183,14 +186,24 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  vertical-align: top;
-  width: 50%;
-  padding-top: 3rem;
+  width: 100%;
+  max-width: 100vw;
+  padding: 1rem;
+  order: -1; /* Artboard appears first on mobile */
 }
 
 #canvasWrapper {
-  width: auto;
+  width: 100%;
+  max-width: 90vw;
   height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#canvasWrapper canvas {
+  max-width: 100%;
+  height: auto !important;
 }
 
 .input-element {
@@ -396,8 +409,6 @@ details {
   align-items: center;
 }
 
-
-
 #recurseVal, #rngNumColorsVal, #cellPadVal {
   width: 2rem;
   height: 1.5rem;
@@ -447,10 +458,11 @@ input[type="text"] {
 .canvas-actions {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  align-content: center;
-  width: 50rem;
+  width: 100%;
+  max-width: 100%;
+  gap: 0.5rem;
   padding: 0.5rem 0;
 }
 
@@ -462,12 +474,14 @@ input[type="text"] {
 .download-actions {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  gap: 0.75rem;
+  flex-wrap: no-wrap;
 }
 
 .download-actions * {
-  margin-right: 0.75rem;
+  margin-right: 0;
 }
 
 .seed-display {
@@ -564,4 +578,96 @@ select {
   width: 95%;
   font-size: .9rem;
   margin-top: 0.25rem;
+}
+
+/* ========================================================================
+   RESPONSIVE BREAKPOINTS
+   ======================================================================== */
+
+/* Tablet: 768px and up */
+@media (min-width: 768px) {
+  .soopergrid-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #artboard {
+    width: 100%;
+    max-width: 800px;
+    padding: 2rem;
+    order: -1;
+  }
+
+  #canvasWrapper {
+    max-width: 700px;
+  }
+
+  #ui {
+    width: 100%;
+    max-width: 700px;
+    padding: 1.5rem;
+    margin: 1rem 0;
+  }
+
+  .grid-logo {
+    max-width: 240px;
+  }
+
+  .canvas-actions {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 700px;
+  }
+}
+
+/* Desktop: 1024px and up */
+@media (min-width: 1024px) {
+  .soopergrid-container {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  #artboard {
+    width: 60%;
+    max-width: none;
+    padding-top: 3rem;
+    order: 0;
+  }
+
+  #canvasWrapper {
+    max-width: 90%;
+  }
+
+  #ui {
+    width: 40%;
+    max-width: 500px;
+    padding: 1rem;
+    margin: 1rem;
+  }
+
+  .grid-logo {
+    max-width: 240px;
+  }
+
+  .canvas-actions {
+    width: auto;
+    max-width: 50rem;
+    gap: 0.75rem;
+  }
+}
+
+/* Large Desktop: 1440px and up */
+@media (min-width: 1440px) {
+  #artboard {
+    width: 50%;
+  }
+
+  #ui {
+    width: 30%;
+    max-width: 550px;
+  }
 }
