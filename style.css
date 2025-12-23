@@ -1,3 +1,36 @@
+/* Light Mode (Explicit) */
+html.light {
+  --bg: #fdfdfd;
+  --text-primary: rgba(13, 15, 16, 0.85);
+  --text-secondary: rgba(13, 15, 16, 0.4);
+  --text-tertiary: rgba(13, 15, 16, 0.24);
+  --border: rgba(13, 15, 16, 0.1);
+  --selection: rgba(13, 15, 16, 0.08);
+  --code-bg: rgba(13, 15, 16, 0.04);
+  --mark: #f3ffc4;
+
+  --slider-thumb: #0D0F10;
+  --slider-track: #c8c8c8;
+  --slider-thumb-hover: #323232;
+}
+
+/* Dark Mode (Explicit) */
+html.dark {
+  --bg: #0D0F10;
+  --text-primary: rgba(253, 253, 253, 0.9);
+  --text-secondary: rgba(253, 253, 253, 0.4);
+  --text-tertiary: rgba(253, 253, 253, 0.24);
+  --border: rgba(253, 253, 253, 0.1);
+  --selection: rgba(253, 253, 253, 0.08);
+  --code-bg: rgba(253, 253, 253, 0.04);
+  --mark: #545b37;
+
+  --slider-thumb: #fdfdfd;
+  --slider-track: #3c3c3c;
+  --slider-thumb-hover: #aeaeae;
+}
+
+
 html, body {
   --grey-100: #FAFAFA;
   --grey-200: #E1E1E1;
@@ -59,15 +92,29 @@ html, body {
   --brand-red:  var(--red-600);
   --brand-turq: var(--turq-600);
 
-  --background: var(--grey-100);
-  --main-text:  var(--grey-1000);
 
   margin: 0;
   padding: 0;
   font-family: inter-variabe, sans-serif;
-  font-size: 1em;
-  color: var(--main-text);
+  
+  color: var(--text-primary);
+  background-color: var(--bg);
+
+  --font-size-s: 0.8125rem;
+  --font-size-m: 0.9375rem;
+  --font-size-l: 1.0625rem;
+
+  --font-weight-light: 350;
+  --font-weight-regular: 400;
+  --font-weight-bold: 500;
+
+
+  font-size: var(--font-size-m);
+  font-weight: var(--font-weight-regular)
 }
+
+
+
 
 * {
   box-sizing: border-box;
@@ -90,32 +137,45 @@ h1 {
 }
 
 body {
-  background-color: var(--background);
+  background-color: var(--bg);
 }
 
 .sec-desc {
   font-style: italic;
   font-size: 0.8em;
-  color: var(--grey-600);
-  margin-top: 4px;
+  color: var(--text-secondary);
+  margin-top:0.25rem;
 }
 
 
 /* UI CONTROLS ------------------------------------------------------------- */
 #ui {
-  width: 420px;
-  padding: 20px;
-  margin: 16px;
+  width: 25%;
+  padding: 1rem;
+  margin: 1rem;
+  font-size: var(--)
 }
 
 .grid-logo {
-  margin-left: 12px;
+  margin-left: 0.75rem;
+}
+
+/* Logo bar with theme toggle */
+.logo-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.logo-bar .btn-sm {
+  width: auto;
 }
 
 .ui-controls {
-  padding-top: 8px;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding-top: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 #artboard {
@@ -125,41 +185,39 @@ body {
   align-items: center;
   vertical-align: top;
   width: 50%;
-  padding-top: 48px;
+  padding-top: 3rem;
 }
 
 #canvasWrapper {
-  /* border: 1px solid var(--grey-200); */
   width: auto;
   height: auto;
 }
 
 .input-element {
-  padding-top: 8px;
-  padding-bottom: 8px;
+  padding: 0.5rem 0;
 }
 
 .input-element-switches {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-top: 8px;
-  padding-bottom: 8px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 
 .input-element-sep {
-  padding-top: 4px;
-  padding-bottom: 4px;
+  padding-top: 0.0125rem;
+  padding-bottom: 0.25rem;
   text-align: center;
   font-style: italic;
-  color: var(--grey-600);
+  color: var(--text-secondary);
 }
 
 /* SLIDER ------------------------------------------------------------------ */
 input[type=range].slider {
   width: 240px;
-  margin: 16px 0;
+  margin: 1rem 0;
   background-color: transparent;
   -webkit-appearance: none;
 }
@@ -167,7 +225,7 @@ input[type=range].slider:focus {
   outline: none;
 }
 input[type=range].slider::-webkit-slider-runnable-track {
-  background: #c8c8c8;
+  background: var(--slider-track);
   border: 0px solid rgba(0, 0, 0, 0);
   border: 0;
   width: 100%;
@@ -178,17 +236,17 @@ input[type=range].slider::-webkit-slider-thumb {
   margin-top: -7px;
   width: 24px;
   height: 24px;
-  background: #000000;
+  background: var(--slider-thumb);
   border: 0px solid rgba(0, 0, 0, 0);
   border: 0;
   cursor: pointer;
   -webkit-appearance: none;
 }
 input[type=range].slider:focus::-webkit-slider-runnable-track {
-  background: #c8c8c8;
+  background: var(--slider-track);
 }
 input[type=range].slider::-moz-range-track {
-  background: #c8c8c8;
+  background: var(--slider-track);
   border: 0px solid rgba(0, 0, 0, 0);
   border: 0;
   width: 100%;
@@ -198,7 +256,7 @@ input[type=range].slider::-moz-range-track {
 input[type=range].slider::-moz-range-thumb {
   width: 24px;
   height: 24px;
-  background: #000000;
+  background: var(--slider-thumb);
   border: 0px solid rgba(0, 0, 0, 0);
   border: 0;
   cursor: pointer;
@@ -213,19 +271,19 @@ input[type=range].slider::-ms-track {
   cursor: pointer;
 }
 input[type=range].slider::-ms-fill-lower {
-  background: #c8c8c8;
+  background: var(--slider-track);
   border: 0px solid rgba(0, 0, 0, 0);
   border: 0;
 }
 input[type=range].slider::-ms-fill-upper {
-  background: #c8c8c8;
+  background: var(--slider-track);
   border: 0px solid rgba(0, 0, 0, 0);
   border: 0;
 }
 input[type=range].slider::-ms-thumb {
   width: 24px;
   height: 24px;
-  background: #000000;
+  background: var(--slider-thumb);
   border: 0px solid rgba(0, 0, 0, 0);
   border: 0;
   cursor: pointer;
@@ -233,10 +291,10 @@ input[type=range].slider::-ms-thumb {
   /*Needed to keep the Edge thumb centred*/
 }
 input[type=range].slider:focus::-ms-fill-lower {
-  background: #c8c8c8;
+  background: var(--slider-track);
 }
 input[type=range].slider:focus::-ms-fill-upper {
-  background: #c8c8c8;
+  background: var(--slider-track);
 }
 /*TODO: Use one of the selectors from https://stackoverflow.com/a/20541859/7077589 and figure out
 how to remove the vertical space around the range input in IE*/
@@ -251,17 +309,17 @@ how to remove the vertical space around the range input in IE*/
 
 /* Add hover effects to slider thumbs */
 input[type=range].slider:hover::-webkit-slider-thumb {
-  background: var(--grey-800);
+  background: var(--slider-thumb-hover);
   /* opacity: 0.8; */
 }
 
 input[type=range].slider:hover::-moz-range-thumb {
-  background: var(--grey-800);
+  background: var(--slider-thumb-hover);
   /* opacity: 0.8; */
 }
 
 input[type=range].slider:hover::-ms-thumb {
-  background: var(--grey-800);
+  background: var(--slider-thumb-hover);
   /* opacity: 0.8; */
 }
 
@@ -290,19 +348,34 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* padding: 16px 24px; */
-  padding: 16px;
-  height: 24px;
+  padding: 1rem;
+  height: 1.5rem;
   width: 100%;
   border-radius: 0;
-  background-color: var(--grey-1000);
-  color: var(--grey-100);
-  font-size: 12px;
+  font-size: 0.75rem;
   border: none;
-  margin-bottom: 8px;
+  margin-bottom: 0.5rem;
 }
 
-button:hover {
+/* Light mode: black buttons with white text/icons */
+html.light button {
+  background-color: var(--grey-1000);
+  color: var(--grey-100);
+}
+
+html.light button:hover {
+  background-color: var(--red-700);
+  cursor: pointer;
+}
+
+/* Dark mode: white buttons with black text/icons */
+html.dark button {
+  background-color: var(--grey-100);
+  color: var(--grey-1000);
+  border: 1px solid var(--border);
+}
+
+html.dark button:hover {
   background-color: var(--red-700);
   cursor: pointer;
 }
@@ -311,8 +384,9 @@ details summary {
   cursor: pointer;
 }
 details {
-  margin-bottom: 8px;
-  border: 1px solid var(--grey-200);
+  margin-bottom: 0.5rem;
+  border: 1px solid var(--border);
+  padding-bottom: 0.5rem;
 }
 
 #recurseAmtWrapper, #padAmtWrapper, #numClrsAmtWrapper {
@@ -325,15 +399,16 @@ details {
 
 
 #recurseVal, #rngNumColorsVal, #cellPadVal {
-  width: 32px;
-  height: 24px;
-  margin-left: 24px;
-  color: var(--grey-1000)
+  width: 2rem;
+  height: 1.5rem;
+  margin-left: 1.5rem;
+  color: var(--primary-text);
+  background-color: var(--bg);
 }
 
 #recurseVal, #cellPadVal, #rngNumColorsVal {
   border: 0;
-  font-size: 18px;
+  font-size: 1rem;
   font-weight: bold;
 }
 
@@ -342,19 +417,19 @@ summary {
   list-style: none;
   justify-content: space-between;
   align-items: center;
-  padding: 4px;
+  padding: 0.25rem;
   font-family: figtree, sans-serif;
   font-size: 1.1rem;
   font-weight: bold;
-  padding-left: 8px;
-  background-color: var(--grey-200);
-  color: var(--grey-1000);
+  padding-left: 0.5rem;
+  background-color: var(--border);
+  color: var(--text-primary);
   width: 100%;
 }
 
 summary::after {
   content: "▶"; /* Default icon for collapsed state (e.g., right-pointing triangle) */
-  margin-right: 0.5em;
+  margin-right: 0.5rem;
   transition: transform 0.4s ease-in-out; /* Smooth transition for rotation */
 }
 
@@ -366,7 +441,7 @@ input[type="text"] {
   /* background-color: var(--grey-200); */
   color: var(--grey-1000);
   border-radius: 0;
-  margin-bottom: 6px;;
+  margin-bottom: 0.5rem;
 }
 
 .canvas-actions {
@@ -375,8 +450,8 @@ input[type="text"] {
   justify-content: space-between;
   align-items: center;
   align-content: center;
-  width: 800px;
-  padding: 8px 0;
+  width: 50rem;
+  padding: 0.5rem 0;
 }
 
 .canvas-actions button {
@@ -392,31 +467,30 @@ input[type="text"] {
 }
 
 .download-actions * {
-  margin-right: 12px;
+  margin-right: 0.75rem;
 }
 
 .seed-display {
   display: flex;
   align-items: center;
   align-content: center;
-  gap: 8px;
+  gap: 0.5rem;
 }
 
 .seed-display label {
-  font-size: 14px;
-  /* font-weight: 600; */
+  font-size: 0.875rem;
   color: var(--grey-800);
   white-space: nowrap;
 }
 
 .seed-display input {
   font-size: .9rem;
-  padding: 6px 8px;
+  padding: 0.375rem 0.5rem;
   border: 1px solid var(--grey-400);
   border-radius: 4px;
   background-color: var(--grey-100);
   color: var(--grey-900);
-  width: 120px;
+  width: 7.5rem;
   text-align: center;
   cursor: pointer;
 }
@@ -428,7 +502,7 @@ input[type="text"] {
 
 
 .inset-btn {
-  margin-right: 8px;
+  margin-right: 0.5rem;
   display: block;
   justify-content: center;
   align-items: center;
@@ -439,15 +513,19 @@ input[type="text"] {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
+}
+
+.align-to-bot {
   align-items: flex-end;
 }
 
 .btn-sm {
-  padding: 4px;
+  padding: 0.25rem;
 }
 
 .seed-display .btn-sm {
-  margin-top: 7px;
+  margin-top: 0.4375rem;
 }
  
 
@@ -484,8 +562,6 @@ input[type="checkbox"]:hover {
 
 select {
   width: 95%;
-  padding: 4px 4px;
   font-size: .9rem;
-  margin-top: 4px;
+  margin-top: 0.25rem;
 }
-

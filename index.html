@@ -21,18 +21,19 @@
           <div class="download-actions">
             <button id="btnSave" onclick="saveAnSVG()" title="Download an SVG"><img src="data/images/icon-download-wh.svg" width="20" height="20" alt="Download your SooperGrid as an SVG"/> SVG</button>
             <button id="btnSave" onclick="savePNG()" title="Download a PNG"><img src="data/images/icon-download-wh.svg" width="20" height="20" alt="Download your SooperGrid as a PNG"/> PNG</button>
-          </div>
-          <div class="seed-display">
-            <label for="seedInput">Seed:</label>
-            <input type="text" id="seedInput" onkeydown="handleSeedInput(event)" onclick="this.select()" title="Enter a seed value and press Enter to generate that grid" />
-            <button id="btnCopySeed" onclick="copySeedToClipboard()" title="Copy seed value to clipboard"><img src="data/images/icon-copy-wh.svg" width="16" height="16" alt="Copy seed value to clipboard" /></button> 
-          
-            <button id="btnRefresh" onclick="refreshGrid()" title="Refresh the grid using the current settings"><img src="data/images/icon-refresh-wh.svg" width="20" height="20" alt="Refresh the SooperGrid given the current settings" class="inset-btn" />Refresh</button>
-          </div>
+          </div> 
+          <button id="btnRefresh" onclick="refreshGrid()" title="Refresh the grid using the current settings"><img src="data/images/icon-refresh-wh.svg" width="20" height="20" alt="Refresh the SooperGrid given the current settings" class="inset-btn" />Refresh</button>
         </div>
       </div>
       <div id="ui">
-        <h1><img src="data/images/sooper-grid-mark.svg" width="308" height="66" alt="SooperGrid" class="grid-logo" /></h1>
+        <div class="logo-bar">
+          <h1><img src="data/images/sooper-grid-mark.svg" width="240" height="51" alt="SooperGrid" class="grid-logo" /></h1>
+          <div class="theme-toggle">
+            <button id="themeToggleBtn" class="btn-sm" aria-label="Toggle theme" aria-pressed="false" title="Toggle light/dark theme">
+              <img id="themeToggleIcon" src="data/images/icon-dark-wh.svg" width="16" height="16" alt="Toggle dark mode" />
+            </button>
+          </div>
+        </div>
         
         <details>
           <summary>Instructions</summary>
@@ -85,7 +86,7 @@
             <div class="input-element">
               <label for="rngNumColors">Number of colors in palette?</label>
 
-              <div class="settings-wrapper">
+              <div class="settings-wrapper align-to-bot">
                 <div id="numClrsAmtWrapper">
                   <input type="range" id="rngNumColors" min="2" max="9" step="1" class="slider" />
                   <input type="text" id="rngNumColorsVal" readonly />
@@ -117,7 +118,7 @@
 
           <div class="ui-controls">
 
-            <div class="settings-wrapper">
+            <div class="settings-wrapper align-to-bot">
               <div class="input-element">
                 <label for="selShapeSet">Select a shape set</label>
                 <select id="selShapeSet" class="select-opt">
@@ -165,7 +166,7 @@
               - or -
             </div>
 
-            <div class="settings-wrapper">
+            <div class="settings-wrapper align-to-bot">
               <div class="input-element">
                 <label for="selIndividualShape">Select an individual shape type</label>
                 <select id="selIndividualShape" class="select-opt">
@@ -244,4 +245,94 @@
     </div>
     <script src="sketch.js"></script>
   </body>
+  <script>
+    (function() {
+      const THEME_KEY = 'theme';
+      const btn = document.getElementById('themeToggleBtn');
+      const icon = document.getElementById('themeToggleIcon');
+
+      const prefersDarkMql = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)');
+
+      function applyTheme(theme) {
+        // Keep data-theme for future use and add classes for existing CSS
+        const root = document.documentElement;
+        root.setAttribute('data-theme', theme);
+        root.classList.remove('light', 'dark');
+        root.classList.add(theme);
+        // Set button pressed state to indicate current is dark
+        const isDark = theme === 'dark';
+        if (btn) btn.setAttribute('aria-pressed', String(isDark));
+        // Swap icon to indicate action that will occur on click
+        // In light theme, show "dark" icon (black variant). In dark theme, show "light" icon (white variant).
+        if (icon) {
+          if (isDark) {
+            icon.src = 'data/images/icon-light-blk.svg';
+            icon.alt = 'Toggle light mode';
+          } else {
+            icon.src = 'data/images/icon-dark-wh.svg';
+            icon.alt = 'Toggle dark mode';
+          }
+        }
+        // Swap logo asset for theme
+        const logo = document.querySelector('.grid-logo');
+        if (logo) {
+          logo.src = isDark ? 'data/images/sooper-grid-mark-wh.svg' : 'data/images/sooper-grid-mark-blk.svg';
+          logo.alt = 'SooperGrid';
+        }
+        // Swap all button icons
+        const buttonIcons = document.querySelectorAll('button img');
+        buttonIcons.forEach(function(img) {
+          const currentSrc = img.src;
+          // Skip theme toggle icon (already handled above)
+          if (img.id === 'themeToggleIcon') return;
+          // Skip logo (already handled above)
+          if (img.classList.contains('grid-logo')) return;
+          
+          // Swap between -wh and -blk variants
+          if (isDark) {
+            // Dark mode (white buttons): use black icons
+            img.src = currentSrc.replace(/-wh\.svg$/, '-blk.svg');
+          } else {
+            // Light mode (black buttons): use white icons
+            img.src = currentSrc.replace(/-blk\.svg$/, '-wh.svg');
+          }
+        });
+      }
+
+      function getInitialTheme() {
+        const stored = localStorage.getItem(THEME_KEY);
+        if (stored === 'light' || stored === 'dark') return stored;
+        return prefersDarkMql && prefersDarkMql.matches ? 'dark' : 'light';
+      }
+
+      function setTheme(theme, persist) {
+        applyTheme(theme);
+        if (persist) localStorage.setItem(THEME_KEY, theme);
+      }
+
+      // Initialize on DOM ready
+      document.addEventListener('DOMContentLoaded', function() {
+        const initialTheme = getInitialTheme();
+        applyTheme(initialTheme);
+
+        if (btn) {
+          btn.addEventListener('click', function() {
+            const current = document.documentElement.classList.contains('dark') ? 'dark' : 'light';
+            const next = current === 'dark' ? 'light' : 'dark';
+            setTheme(next, true);
+          });
+        }
+
+        // Only listen to system changes if there is no manual override
+        if (prefersDarkMql) {
+          prefersDarkMql.addEventListener('change', function(evt) {
+            const stored = localStorage.getItem(THEME_KEY);
+            if (stored !== 'light' && stored !== 'dark') {
+              applyTheme(evt.matches ? 'dark' : 'light');
+            }
+          });
+        }
+      });
+    })();
+  </script>
 </html>
