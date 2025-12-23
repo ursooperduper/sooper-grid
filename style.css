@@ -650,6 +650,7 @@ select {
   }
 
   .grid-logo {
+    padding-top: 1rem;
     max-width: 240px;
   }
 
